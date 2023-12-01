@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aCastle
+map_folder: Castle
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -10.0
+    y: 53.0
+    z: 77.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -11.0
+    y: 53.0
+    z: 74.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: 74.0
+    y: 53.0
+    z: -11.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: 76.0
+    y: 53.0
+    z: -9.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -10.0
+    y: 53.0
+    z: -77.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -11.0
+    y: 53.0
+    z: -74.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -74.0
+    y: 53.0
+    z: -11.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -77.0
+    y: 53.0
+    z: -10.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: -2.0
+    y: 59.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: 0.0
+    y: 59.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: 2.0
+    y: 59.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Castle
+    x: 0.0
+    y: 59.0
+    z: 2.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Castle
+    x: 0.5
+    y: 93.63250592372688
+    z: 0.5
+    pitch: 20.100044
+    yaw: -182.24797
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -5.0
+      y: 65.0
+      z: 78.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -7.5
+      y: 55.0
+      z: 70.5
+      pitch: 0.29997236
+      yaw: -164.3997
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -78.0
+      y: 65.0
+      z: -5.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -69.5
+      y: 55.0
+      z: -7.5
+      pitch: -5.25005
+      yaw: -81.74739
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -5.0
+      y: 65.0
+      z: -78.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: -7.5
+      y: 55.0
+      z: -69.5
+      pitch: -0.90000135
+      yaw: -6.8977375
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: 78.0
+      y: 65.0
+      z: -5.0
+    color_chat: YELLOW
+    bed_direction: 3
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Castle
+      x: 70.5
+      y: 55.0
+      z: -7.5
+      pitch: -1.5000074
+      yaw: 79.05228
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

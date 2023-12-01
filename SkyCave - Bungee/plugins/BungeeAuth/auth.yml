@@ -1,0 +1,45 @@
+Login:
+- auth-1
+- auth-2
+- auth-3
+Lobby:
+- mLobby-1
+- mLobby-2
+Admins:
+- Jampire
+- jaquers
+- RIGBI
+AntiBot:
+  enable: false
+  banTime: 1800
+  maxNames: 5
+Auth:
+  host: 54.36.126.45
+  port: 3306
+  username: db1
+  password: S9OZ4Z0jtOqYwEdYPgSc0D9M
+  database: db1
+IpProtect:
+- Nick;Ip
+Table:
+  tablename: authme
+  username: username
+  password: password
+  ip: ip
+  session: lastlogin
+  email: email
+  server: server
+Email:
+  mailSMTP: smtp.mail.ru
+  mailPort: '465'
+  mailAccount: emil.amantaev@mail.ru
+  mailPassword: Emil199863088040800
+  mailSenderName: SpeedCraft | Support
+  RecoveryPasswordLength: 8
+  mailSubject: Новый пароль
+  maxRegPerEmail: 1
+  recallPlayers: true
+  delayRecall: 2
+  mailText: Привет <playername>. Твой новый пароль - <generatedpass>
+hash: SHA256
+mail: true

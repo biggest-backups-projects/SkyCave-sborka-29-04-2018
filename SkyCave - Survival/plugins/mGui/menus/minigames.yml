@@ -1,0 +1,64 @@
+settings:
+    # название окна
+    title: "§0Выбор режима"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "minigames"
+items:
+    mg:
+        item: "354"
+        title: "§eМини-Игры"
+        lore: |-  
+            §7Здесь собраны лучшие мини-игры
+            §7Заходи и убедись в этом сам
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto mgLobby"
+        closeOnClick: true
+        slot: 5
+    survival-1:
+        item: "274"
+        title: "§eСервер §3§lАльфа"
+        lore: |-
+            
+            §c► Вы находитесь здесь
+        action: "tell:§eВы уже играете на этом сервере"
+        closeOnClick: true
+        glow: true
+        slot: 1
+    survival-2:
+        item: "257"
+        title: "§eСервер §3§lБраво"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-2"
+        closeOnClick: true
+        slot: 3
+    survival-3:
+        item: "257"
+        title: "§eСервер §3§lЧарли"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-3"
+        closeOnClick: true
+        slot: 7
+    survival-4:
+        item: "257"
+        title: "§eСервер §3§lДельта"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-4"
+        closeOnClick: true
+        slot: 9
+    back:
+        item: "262"
+        title: "§aНазад"
+        lore: |-
+            
+            §7Нажмите, чтобы вернуться
+            §7в главное меню
+        action: "page:menu"
+        slot: 23

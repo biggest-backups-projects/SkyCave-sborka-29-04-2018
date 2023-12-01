@@ -1,0 +1,72 @@
+settings:
+    # название окна
+    title: "§0Стандартные варпы сервера"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "warps"
+items:
+    mobs:
+        item: "364"
+        title: "§eПровизия"
+        lore: |-
+            
+            §7Нажмите, чтобы телепортироваться
+            §7на этот варп
+        action: 
+            - "command:warp mobs"
+            - "actionbar:§fВы перемещены на §eФерму мобов"
+        slot: 3
+    pvp:
+        item: "267"
+        title: "§ePvP арена"
+        lore: |-
+           
+            §7Нажмите, чтобы телепортироваться
+            §7на этот варп
+        action:
+            - "command:warp pvp"
+            - "actionbar:§fВы перемещены на §ePvP арену"
+        slot: 4
+    enchant:
+        item: "116"
+        title: "§eЧаровальня"
+        lore: |-
+            
+            §7Нажмите, чтобы телепортироваться
+            §7на этот варп
+        action: 
+            - "command:warp enchant"
+            - "actionbar:§fВы перемещены в §eЧаровальню"
+        slot: 5
+    mine:
+        item: "278"
+        title: "§eАвтоматическая шахта"
+        lore: |-
+
+            §7Нажмите, чтобы телепортироваться
+            §7на этот варп
+        action: 
+            - "command:warp mine"
+            - "actionbar:§fВы перемещены в §eАвто-Шахту"
+        slot: 6
+    nether:
+        item: "87"
+        title: "§eНижний мир"
+        lore: |-
+
+            §7Нажмите, чтобы телепортироваться
+            §7на этот варп
+        action: 
+            - "command:warp nether"
+            - "actionbar:§fВы перемещены в §eНижний мир"
+        slot: 7
+
+    back:
+        item: "262"
+        title: "§aНазад"
+        lore: |-
+            
+            §7Нажмите, чтобы вернуться
+            §7в главное меню
+        action: "page:menu"
+        slot: 23

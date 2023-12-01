@@ -1,0 +1,53 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+mysql:
+    host: 193.70.81.109
+    port: 3306
+    database: db1
+    username: db1
+    password: "Hb4OgnileufZExMz4779FRy1K0Nru4VZ"
+items:
+    premium:
+        name: '§f[§dПремиум§f]'
+        item: '95:6'
+        chance: 0.3
+    master:
+        name: '§f[§eМастер§f]'
+        item: '95:4'
+        chance: 0.3
+    creative:
+        name: '§f[§2Креатив§f]'
+        item: '95:13'
+        chance: 0.2
+    magma:
+        name: '§f[§6Магма§f]'
+        item: '95:1'
+        chance: 0.1
+    ultra:
+        name: '§f[§bУльтра§f]'
+        item: '95:3'
+        chance: 0.03
+    legend:
+        name: '§f[§9Легенда§f]'
+        item: '95:11'
+        chance: 0.02
+    meduse:
+        name: '§f[§aМедуза§f]'
+        item: '95:5'
+        chance: 0.02
+    lord:
+        name: '§f[§cЛорд§f]'
+        item: '95:14'
+        chance: 0.01
+    deluxe:
+        name: '§f[§5Делюкс§f]'
+        item: '95:10'
+        chance: 0.01
+    admin:
+        name: '§f[§4Админ§f]'
+        item: '35:14'
+        chance: 0.005
+    sponsor:
+        name: '§f[§a§lСпонсор§f]'
+        item: '347'
+        chance: 0.005

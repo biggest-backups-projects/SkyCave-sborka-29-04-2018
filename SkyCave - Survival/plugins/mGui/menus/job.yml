@@ -1,0 +1,34 @@
+settings:
+    # название окна
+    title: "§0Работа"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "jobs"
+items:
+    woodcotter:
+        item: "258"
+        title: "§eРабота дровосека"
+        lore: |-
+            
+            §7Рубите деревья на лесопилке
+            §7и получайте за это деньги
+        action: "command:warp woodcutter"
+        slot: 3
+    loader:
+        item: "408"
+        title: "§eГрузчик"
+        lore: |-
+            
+            §7Таскайте товар на склад
+            §7и получайте за это деньги
+        action: "command:warp box"
+        slot: 7
+    back:
+        item: "262"
+        title: "§aНазад"
+        lore: |-
+           
+            §7Нажмите, чтобы вернуться
+            §7в главное меню
+        action: "page:menu"
+        slot: 23

@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aMushroom
+map_folder: Mushroom
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -9.0
+    y: 43.0
+    z: 70.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: 34.0
+    y: 45.0
+    z: 31.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: 74.0
+    y: 44.0
+    z: -14.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: 34.0
+    y: 45.0
+    z: -55.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -11.0
+    y: 43.0
+    z: -96.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -52.0
+    y: 45.0
+    z: -55.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -93.0
+    y: 43.0
+    z: -12.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -52.0
+    y: 45.0
+    z: 31.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: 0.0
+    y: 49.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: 2.0
+    y: 43.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -22.0
+    y: 42.0
+    z: -26.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mushroom
+    x: -20.0
+    y: 49.0
+    z: -24.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Mushroom
+    x: -21.209430736468878
+    y: 67.12389158516
+    z: -26.454286843875085
+    pitch: 15.4499235
+    yaw: -35.546265
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: 57.0
+      y: 46.0
+      z: -14.0
+    color_chat: RED
+    bed_direction: 3
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: 62.5
+      y: 46.0
+      z: -13.5
+      pitch: -2.550092
+      yaw: -271.04767
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -77.0
+      y: 46.0
+      z: -12.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -81.5
+      y: 46.0
+      z: -11.5
+      pitch: -2.8500555
+      yaw: -91.19815
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -9.0
+      y: 46.0
+      z: 54.0
+    color_chat: BLUE
+    bed_direction: 0
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -8.5
+      y: 46.0
+      z: 59.5
+      pitch: -1.8000717
+      yaw: -181.64786
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -11.0
+      y: 46.0
+      z: -80.0
+    color_chat: YELLOW
+    bed_direction: 2
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mushroom
+      x: -10.5
+      y: 46.0
+      z: -84.5
+      pitch: -2.1000342
+      yaw: -0.89834595
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

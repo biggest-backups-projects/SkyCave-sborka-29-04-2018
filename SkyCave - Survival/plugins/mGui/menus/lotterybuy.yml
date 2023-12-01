@@ -1,0 +1,86 @@
+settings:
+    # название окна
+    title: "§0Покупка билетов"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "lot buy"
+items:
+    ticket1:
+        item: "339"
+        title: "§e1 билет"
+        lore: |-
+            
+            §7Нажмите, чтобы купить
+            §71 билет для игры в лотерею
+
+            §7Цена - §a$100
+            §7Ваш баланс - $%money%
+
+            §7Команда - §e/lottery buy <количество>
+        action: "command:lottery buy 1"
+        slot: 12
+    ticket5:
+        item: "339"
+        title: "§e5 билетов"
+        lore: |-
+            
+            §7Нажмите, чтобы купить
+            §75 билетов для игры в лотерею
+
+            §7Цена - §a$500
+            §7Ваш баланс - $%money%
+
+            §7Команда - §e/lottery buy <количество>
+        action: "command:lottery buy 5"
+        amount: 5
+        slot: 13
+    ticket10:
+        item: "339"
+        title: "§e10 билетов"
+        lore: |-
+            
+            §7Нажмите, чтобы купить
+            §710 билетов для игры в лотерею
+
+            §7Цена - §a$1,000
+            §7Ваш баланс - $%money%
+
+            §7Команда - §e/lottery buy <количество>
+        action: "command:lottery buy 10"
+        amount: 10
+        slot: 14
+    ticket25:
+        item: "339"
+        title: "§e25 билетов"
+        lore: |-
+            
+            §7Нажмите, чтобы купить
+            §710 билетов для игры в лотерею
+
+            §7Цена - §a$2,500
+            §7Ваш баланс - $%money%
+
+            §7Команда - §e/lottery buy <количество>
+        action: "command:lottery buy 25"
+        amount: 25
+        slot: 15
+    ticket50:
+        item: "339"
+        title: "§e50 билетов"
+        lore: |-
+            
+            §7Нажмите, чтобы купить
+            §750 билетов для игры в лотерею
+
+            §7Цена - §a$5,000
+            §7Ваш баланс - $%money%
+
+            §7Команда - §e/lottery buy <количество>
+        action: "command:lottery buy 50"
+        amount: 50
+        slot: 16
+    back:
+        item: "262"
+        title: "§aНазад"
+        action: "page:lottery"
+        slot: 19

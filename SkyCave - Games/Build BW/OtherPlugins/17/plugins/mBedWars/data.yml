@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aAridia
+map_folder: Aridia
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -4.0
+    y: 49.0
+    z: -44.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -44.0
+    y: 49.0
+    z: 4.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 4.0
+    y: 49.0
+    z: 44.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 44.0
+    y: 49.0
+    z: -4.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -28.0
+    y: 49.0
+    z: -3.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -3.0
+    y: 49.0
+    z: 28.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 28.0
+    y: 49.0
+    z: 3.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 3.0
+    y: 49.0
+    z: -28.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -3.0
+    y: 49.0
+    z: -3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: -3.0
+    y: 49.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 3.0
+    y: 49.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Aridia
+    x: 3.0
+    y: 49.0
+    z: -3.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Aridia
+    x: 0.5
+    y: 64.37112551041685
+    z: 0.5
+    pitch: 2.9999502
+    yaw: -268.6499
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: 4.0
+      y: 50.0
+      z: -51.0
+    color_chat: RED
+    bed_direction: 3
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: -1.5
+      y: 50.0
+      z: -50.5
+      pitch: -3.7500277
+      yaw: 0.14986363
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: -51.0
+      y: 50.0
+      z: -4.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: -50.5
+      y: 50.0
+      z: 2.5
+      pitch: -3.0000455
+      yaw: 268.94968
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: -4.0
+      y: 50.0
+      z: 51.0
+    color_chat: BLUE
+    bed_direction: 1
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: 2.5
+      y: 50.0
+      z: 51.5
+      pitch: -2.55004
+      yaw: 178.04987
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: 51.0
+      y: 50.0
+      z: 4.0
+    color_chat: YELLOW
+    bed_direction: 0
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Aridia
+      x: 51.5
+      y: 50.0
+      z: -1.5
+      pitch: -2.400054
+      yaw: 88.649864
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aOldWorld
+map_folder: OldWorld
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 3.0
+    y: 58.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -3.0
+    y: 58.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -3.0
+    y: 58.0
+    z: -3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 3.0
+    y: 58.0
+    z: -3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 8.0
+    y: 60.0
+    z: -52.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -20.0
+    y: 59.0
+    z: -21.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 20.0
+    y: 59.0
+    z: -21.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 19.0
+    y: 60.0
+    z: 20.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -20.0
+    y: 60.0
+    z: 20.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -54.0
+    y: 60.0
+    z: -7.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: 53.0
+    y: 60.0
+    z: 7.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: OldWorld
+    x: -7.0
+    y: 60.0
+    z: 53.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: OldWorld
+    x: 0.6069205369332178
+    y: 95.20000004768372
+    z: 1.6526844380241392
+    pitch: 88.50011
+    yaw: -188.99725
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: 2.0
+      y: 55.0
+      z: -60.0
+    color_chat: RED
+    bed_direction: 2
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: 0.5180110282502876
+      y: 58.0
+      z: -45.82754577323899
+      pitch: -1.0499998
+      yaw: -3.1499887
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: 60.0
+      y: 56.0
+      z: 2.0
+    color_chat: GREEN
+    bed_direction: 3
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: 47.934157589780725
+      y: 59.0
+      z: 0.28411835702218285
+      pitch: 2.5500386
+      yaw: -272.09888
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: -61.0
+      y: 56.0
+      z: -2.0
+    color_chat: BLUE
+    bed_direction: 1
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: -47.5525806000963
+      y: 59.0
+      z: 0.7857180763661261
+      pitch: -0.1499495
+      yaw: -91.19903
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: -2.0
+      y: 56.0
+      z: 60.0
+    color_chat: YELLOW
+    bed_direction: 0
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: OldWorld
+      x: 0.6131188620415611
+      y: 59.0
+      z: 48.68556514566311
+      pitch: -0.5999481
+      yaw: -181.34808
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

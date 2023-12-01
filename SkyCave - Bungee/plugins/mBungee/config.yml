@@ -1,0 +1,92 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+#
+# параметр fallback указывает, куда будет перемещен игрок после дропа сервера
+#        при отсутствии параметра игрок будет кикнут из сети Bungee после дропа сервера
+#
+# параметр mask указывает, как называются серверы выбранной группы
+#        при отсутствии параметра сервер не будет являться группой и будет назван как представлен в конфиге
+#
+# параметр roll имеет значения true/false и указывает, нужно ли игрока пытаться поместить на работающий сервер той же группы при падении текущего
+#        при отсутствии параметра он будет равен false
+#
+# параметр goto имеет значения true/false и указывает, можно ли попасть на выбранную группу серверов с помощью команды goto
+#        при отсутствии параметра он будет равен true
+lobby_cmd: survival-1
+hubs:
+    'BW':
+        mask: 'BW-\d*'
+        fallback: bwLobby
+        goto: false
+    'bwLobby':
+        mask: 'bwLobby-\d*'
+        fallback: limbo
+        roll: true
+        
+    'SW':
+        mask: 'SW-\d*'
+        fallback: swLobby
+        goto: false
+    'swLobby':
+        mask: 'swLobby-\d*'
+        fallback: limbo
+        roll: true
+
+    'BB':
+        mask: 'BB-\d*'
+        fallback: bbLobby
+        goto: false
+    'bbLobby':
+        mask: 'bbLobby-\d*'
+        fallback: limbo
+        roll: true
+
+    'auth':
+        mask: 'auth-\d*'
+        goto: false
+    'limbo':
+        mask: 'limbo-\d*'
+        goto: false
+
+    'survival-1':
+        title: "§fСервер §bГамма"
+        subtitle: "§c▸ §eДобро пожаловать"
+        fallback: limbo
+    'survival-2':
+        title: "§fСервер §bДельта"
+        subtitle: "§c▸ §eДобро пожаловать"
+        fallback: limbo
+    'test':
+        fallback: limbo
+servers:
+    BW:
+        '37-59-28-109': '54100-54160'
+    SW:
+        '37-59-28-109': '55100-55160'
+    BB:
+        '37-59-28-109': '56100-56160'
+    auth:
+        '149-202-89-136': '20100-20110'
+    limbo:
+        '149-202-89-136': '21100-21110'
+    bwLobby:
+        '94-23-198-126': '22100-22110'
+    swLobby:
+        '94-23-198-126': '23100-23110'
+    bbLobby:
+        '94-23-198-126': '24100-24110'
+    survival-1:
+        '164-132-203-228': '35101'
+    survival-2:
+        '164-132-203-228': '35102'
+    test:
+        '164-132-203-228': '55100'
+tab:
+  header: |-
+    §3§lSpeed§6§lCraft
+    §fСкидки на донат §d90%
+    §fОнлайн магазин для покупки доната
+    §aspeedcraft.su
+  footer: |-
+    §fАйпи адрес:
+    §amc.speed-craft.ru

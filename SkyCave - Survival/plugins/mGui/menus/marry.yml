@@ -1,0 +1,81 @@
+settings:
+    # название окна
+    title: "§0Бракосочетания"
+    # количество строк инвентаря. от 1 до 6
+    rows: 5
+items:
+    gender:
+        item: "397:3"
+        title: "§eВыбрать пол"
+        lore: |-
+            
+            §7Нажмите, чтобы установить
+            §7свой пол
+        action: "page:gender"
+        slot: 11
+    tp:
+        item: "288"
+        title: "§eТелепортироваться к партнеру"
+        lore: |-
+            
+            §7Нажмите, чтобы телепортироваться
+            §7к мужу/жене
+        action: "command:marry tp"
+        slot: 13
+    heal:
+        item: "372"
+        title: "§eВылечить партнера"
+        lore: |-
+            
+            §7Нажмите, чтобы вылечить
+            §7партнера за счет своего здоровья
+        action: "command:marry heal"
+        slot: 15
+    pvp:
+        item: "261"
+        title: "§ePvP со своим партнером"
+        lore: |-
+           
+            §7Нажми, чтобы включить/выключить
+            §7pvp со своим партнером
+        action: "command:marry pvp"
+        slot: 17
+    marry:
+        item: "386"
+        title: "§eПожениться"
+        lore: |-
+            
+            §7Используй команду §a/marry §7[§aник§7]
+            §7чтобы пожениться
+        action: "tell:§fЧтобы пожениться, используй команду §e/marry §f[§eник§]"
+        closeOnClick: true
+        slot: 30
+    help:
+        item: "395"
+        title: "§eСписок команд"
+        lore: |-
+
+            §e/marry gift §f- Подарить вещи, которые держите в руки
+            §e/marry gender male/female §f- Указать пол
+            §e/marry §f[§eник§f] §f- Сделать предложение
+            §e/marry pvp on/off §f- Включить/выключить pvp со своим партнером
+            §e/marry list §f- Показать всех игроков, состоящих в браке
+            §e/marry seen §f- Узнать, когда заходил ваш партнер
+            §e/marry home §f- Телепортироваться в брачный дом
+            §e/marry chat §f- Включить чат влюбленных
+            §e/marry heal §f- Вылечить здоровье партнера за счет своего
+            §e/marry sethome §f- Установить супружеский дом
+            §e/marry divorce §f- Развестись с партнером
+            §e/marry tp §f- Телепортироваться к партнеру
+        action: "command:marry"
+        closeOnClick: true
+        slot: 32
+    home:
+        item: "355"
+        title: "§eТелепортироваться домой"
+        lore: |-
+
+            §7Нажмите, чтобы телепортироваться
+            §7в брачный дом
+        action: "command:marry home"
+        slot: 34

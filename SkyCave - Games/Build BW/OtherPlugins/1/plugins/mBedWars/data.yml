@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aBallons
+map_folder: Ballons
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 63.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 2.0
+    y: 63.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 63.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: -2.0
+    y: 63.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 51.0
+    y: 68.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 51.0
+    y: 71.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 68.0
+    z: 51.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 71.0
+    z: 51.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: -51.0
+    y: 68.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: -51.0
+    y: 71.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 68.0
+    z: -51.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Ballons
+    x: 0.0
+    y: 71.0
+    z: -51.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Ballons
+    x: 0.5
+    y: 86.90382235658086
+    z: 0.5
+    pitch: 16.500002
+    yaw: 0.9042969
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: 72.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 0.5
+      y: 69.0
+      z: 65.5
+      pitch: -0.44997543
+      yaw: -179.8512
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 72.0
+      y: 69.0
+      z: 0.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 65.5
+      y: 69.0
+      z: 0.5
+      pitch: 1.4999909
+      yaw: 89.85467
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: -72.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: 0.5
+      y: 69.0
+      z: -64.5
+      pitch: 1.64999
+      yaw: -359.69562
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: -72.0
+      y: 69.0
+      z: 0.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Ballons
+      x: -64.5
+      y: 69.0
+      z: 0.5
+      pitch: -1.3499933
+      yaw: -89.696556
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

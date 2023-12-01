@@ -1,0 +1,119 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aElven
+map_folder: Elven
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.332002082324337
+    y: 65.0
+    z: 0.3937968484283292
+    pitch: 5.370551
+    yaw: 270.2027
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 180
+  min-players: 6
+  max-players: 12
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 2.5
+    y: 100.0
+    z: 1.5
+    pitch: 11.400006
+    yaw: 91.799736
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 55.5
+    y: 66.0
+    z: -27.5
+    pitch: -7.200002
+    yaw: 47.549976
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 70.5
+    y: 66.0
+    z: -23.5
+    pitch: -10.1999855
+    yaw: 58.34998
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 80.5
+    y: 66.0
+    z: -7.5
+    pitch: -5.849987
+    yaw: 77.250015
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 80.5
+    y: 66.0
+    z: 8.5
+    pitch: -7.9499884
+    yaw: 99.60001
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 70.5
+    y: 66.0
+    z: 24.5
+    pitch: -8.849989
+    yaw: 121.800026
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: 55.5
+    y: 66.0
+    z: 28.5
+    pitch: -13.199996
+    yaw: 136.95001
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -54.5
+    y: 66.0
+    z: -27.5
+    pitch: -12.299947
+    yaw: 317.0999
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -69.5
+    y: 66.0
+    z: -23.5
+    pitch: -10.65003
+    yaw: -58.650204
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -79.5
+    y: 66.0
+    z: -7.5
+    pitch: -8.099988
+    yaw: 283.04987
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -79.5
+    y: 66.0
+    z: 8.5
+    pitch: -10.799985
+    yaw: 260.24988
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -69.5
+    y: 66.0
+    z: 24.5
+    pitch: -9.599987
+    yaw: -118.05026
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Elven
+    x: -54.5
+    y: 66.0
+    z: 28.5
+    pitch: -12.449998
+    yaw: -134.10028
+  time:
+    type: FIXED
+    value: 1000

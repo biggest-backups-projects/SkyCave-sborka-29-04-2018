@@ -1,0 +1,4 @@
+blockedCommands:
+    text: §cВам запрещено исполнять данную команду.
+    list:
+        - /pex

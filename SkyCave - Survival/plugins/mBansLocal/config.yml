@@ -1,0 +1,22 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+cooldowns:
+  ban: 86400
+  mute: 600
+  kick: 180
+  kill: 7200
+  moneygive: 86400
+  jail: 43200
+limits:
+  ban: 14400
+  mute: 14400
+  jail: 14400
+  moneygive: 500
+s:
+  ==: org.bukkit.Location
+  world: world
+  x: 531.5266839452737
+  y: 94.0
+  z: 510.73496268485155
+  pitch: -0.6623578
+  yaw: 301.61627

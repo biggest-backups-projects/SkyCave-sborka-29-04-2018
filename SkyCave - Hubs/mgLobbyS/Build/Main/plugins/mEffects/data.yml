@@ -1,0 +1,19 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+regions:
+  lobby:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: world
+      x: -5
+      y: 82
+      z: 46
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: world
+      x: -3
+      y: 85
+      z: 46
+    name: lobby
+    particle: witchMagic

@@ -1,0 +1,38 @@
+NOT_PLAYER: '&4Error&8: &cВам нужно быть игроком'
+NOT_ONLINE: '&4Error&8: &cИгрок не в сети'
+SKIN_COOLDOWN: '&eВы можете менять скин каждые %s секунд'
+SKIN_CHANGE_SUCCESS: '&2Ваш скин изменен'
+PLAYER_HAS_NO_PERMISSION: '&4Error&8: &cУ вас недостаточно прав, чтобы сделать это'
+SKIN_DISABLED: '&4Error&8: &cЭтот скин выключен администратором'
+UNKNOWN_COMMAND: '&cНеизвестная команда'
+ALT_API_FAILED: '&4Error&8: &cAPI перегружен, попробуйте позже'
+NOT_PREMIUM: '&4Error&8: &cPremium игрока с таким ником не существует'
+RATE_LIMITED: '&4Error&8: &cНужно подождать, чтобы сделать это'
+GENERIC_ERROR: '&4Error&8: &cПроизошла ошибка при запросе данных скинов, повторите
+  попытку позже'
+SKIN_DATA_DROPPED: '&2Данные скина у игрока %player дропнуты'
+SKIN_DATA_SAVED: '&2Скин успешно сохранен'
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: '    &2/skin <skinname> &7-&f изменить скин'
+ADMIN_SET_SKIN: '&2Вы установили скин игрока %player'
+HELP_ADMIN: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver% &c&lAdmin
+
+      &2/sr set <player> <skin name> &7- &fChanges the skin of a player..
+      &2/sr drop <player> &7- &fDrops player skin data.
+      &2/sr reload &7- &fReloads the config and locale
+      &2/sr props [player] &7- &fDisplays the players actual skin as properties
+RELOAD: '&2Config and Locale has been reloaded!'
+NO_SKIN_DATA: '&4Error&8: &cNo skin data acquired! Does this player have a skin?'
+OUTDATED: "&4You are running an outdated version of SKINSRESTORER!\n&cPlease update\
+  \ to latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+HELP_CONFIG: |2-
+    &2&lSkinsRestorer &7- &c&lConfig
+
+      &2/sr defaultSkins <true/false/add [skin]> &7- &fConfigures the DefaultSkins section.
+      &2/sr disabledSkins <true/false/add [skin]> &7- &fConfigures the DisabledSkins section.
+      &2/sr joinSkins <true/false> &7- &fToggles the skins on join.
+      &2/sr updater <true/false> &7- &fToggles the updater
+SKIN_COOLDOWN_NEW: '&4Error&8: &cYou can change your skin again in &e%s &cseconds.'
+WAIT_A_MINUTE: '&4Error&8: &cPlease wait a minute before requesting that skin again.
+  (Rate Limited)'

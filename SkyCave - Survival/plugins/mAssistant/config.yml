@@ -1,0 +1,168 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+pads:
+  enabled: true
+  power:
+    IRON_BLOCK:
+      force: 1
+      immune: 2
+    GOLD_BLOCK:
+      force: 2
+      immune: 3
+    DIAMOND_BLOCK:
+      force: 3
+      immune: 4
+joinmsg: true
+hidestream: true
+chairs: true
+prefixes: true
+gm: 
+  pvp: true # запретить пвп в гм
+fly:
+  bow: true
+  pvp: true
+  potions: true
+chat:
+  antispam:
+    enabled: true
+    similar_ru: етуоранксвмиг1
+    similar_en: etyopahkcbmurl
+    domains: 'рус|pф|space|abb|abc|able|ac|aco|ad|adac|ads|ae|aeg|aero|af|afl|ag|art|asia|at|auto|aw|aws|ax|axa|az|ba|baby|band|bank|bar|bcg|bcn|bd|be|beer|best|bet|bid|bike|bing|bio|biz|blog|blue|bm|bms|bmw|bn|bnl|bofa|bom|bond|boo|book|br|bs|bt|buy|buzz|bv|bw|by|bz|bzh|ca|cab|cafe|camp|car|care|cars|casa|case|cash|cat|cba|cbn|cbre|cbs|cc|cd|ceb|ceo|cern|cf|cfa|cfd|cg|ch|chat|ci|citi|city|ck|cl|club|com|cool|coop|cr|crs|csc|cv|cw|cx|cy|cyou|cz|dad|date|day|dclk|dds|de|deal|dell|desi|dev|dhl|diet|dish|diy|dj|dk|dm|dnp|do|docs|dog|doha|dot|dtv|duck|duns|dvag|dvr|dz|eat|ec|eco|edu|eg|er|erni|es|esq|eu|eus|fage|fail|fan|fans|farm|fast|fi|fiat|fido|fire|fish|fit|fj|fk|flir|fly|fm|fo|foo|ford|fox|fr|frl|ftr|fund|fyi|ga|gal|game|gap|gb|gbiz|gd|gdn|ge|gea|gent|gf|gg|gh|gi|gift|gl|gle|gm|gmbh|gmo|gmx|gn|gold|golf|goo|goog|gop|got|gov|gp|gq|gr|gs|gt|gu|guge|guru|gw|gy|haus|hbo|hdfc|help|here|hgtv|hiv|hk|hkt|hm|hn|host|hot|how|hr|hsbc|ht|ibm|icbc|ice|icu|id|ie|ieee|ifm|il|im|imdb|immo|in|info|ing|ink|int|io|iq|ir|is|ist|it|itau|itv|iwc|java|jcb|jcp|je|jeep|jlc|jll|jm|jmp|jnj|jo|jobs|jot|joy|jp|jprs|kddi|ke|kfh|kg|kh|ki|kia|kim|kiwi|km|kn|kp|kpmg|kpn|kr|krd|kred|kw|kz|la|land|lat|law|lb|lc|lds|lego|lgbt|li|lidl|life|like|limo|link|live|lk|loan|loft|lol|love|lpl|lr|ls|lt|ltd|ltda|lu|luxe|lv|ly|ma|maif|man|mba|mc|mcd|md|me|med|meet|meme|men|menu|meo|mg|mh|mil|mini|mint|mit|mk|ml|mlb|mls|mm|mma|mn|mo|mobi|moda|moe|moi|mom|mov|mp|mq|mr|ms|msd|mt|mtn|mtpc|mtr|mu|mv|mw|mx|my|mz|nab|name|nc|ne|nec|net|new|news|next|nf|nfl|ng|ngo|nhk|ni|nico|nike|nl|no|now|np|nr|nra|nrw|nu|nyc|nz|obi|off|ollo|om|ong|onl|ooo|open|org|pa|page|pars|pay|pccw|pe|pet|pf|pg|ph|pics|pid|pin|ping|pink|pk|pl|play|plus|pm|pn|pnc|pohl|porn|post|pro|prod|prof|pru|ps|pt|pub|pw|pwc|py|qa|qpon|qvc|re|read|red|reit|ren|rent|rest|rich|rio|rip|ro|room|rs|rsvp|ru|ruhr|run|rw|rwe|sa|safe|sale|sap|sapo|sarl|sas|save|saxo|sb|sbi|sbs|sc|sca|scb|scor|scot|sd|se|seat|seek|ses|sew|sex|sexy|sfr|sg|sh|shaw|shia|shop|show|si|silk|sina|site|sj|sk|ski|skin|sky|sl|sm|sn|sncf|so|sohu|song|sony|soy|spot|sr|srl|srt|st|star|stc|su|surf|sv|sx|sy|sz|tab|talk|tax|taxi|tc|tci|td|tdk|team|tech|tel|teva|tf|tg|th|thd|tiaa|tips|tj|tjx|tk|tl|tm|top|town|toys|tr|trv|tube|tui|tv|tvs|tw|tz|ua|ubs|ug|uk|uno|uol|ups|us|uy|uz|va|vana|vc|ve|vet|vg|vi|xyz|store|vig|vin|vip|visa|viuva|vivo|vn|vote|voto|vu|wang|wed|weir|wf|wien|wiki|win|wine|wme|work|wow|ws|wtc|wtf|xbox|xin|xxx|yoga|yun|za|zara|zero|zip|zm|zone|zw|online|website'
+    skipped:
+      - 'speed-craft.ru'
+      - 'mc.speed-craft.ru'
+      - 'mc.speedcraft.su'
+      - 'speedcraft.su'
+    words:
+      enabled: true
+      blacklist:
+        - 'сука'
+        - 'блять'
+        - 'ебать'
+  broadcast: 
+    enabled: true 
+    format: '§c* [Broadcast] %player% §8» §c%message%'
+  chars:
+    enabled: true
+    allowed: ~ `1!2@3#4$5%6^7§8*9(0)-_=+ qQwWeErRtTyYuUiIoOpP[{]}\| aAsSdDfFgGhHjJkKlL;:'\" zZxXcCvVbBnNmM,<.>/? ёЁ!№ йЙцЦуУкКеЕнНгГшШщЩзЗхХъЪ фФыЫвВаАпПрРоОлЛдДжЖэЭ яЯчЧсСмМиИтТьЬбБюЮ
+  digits:
+    enabled: true
+    max: 6
+  repeat:
+    enabled: true
+    time: 13
+  cooldown:
+    enabled: true
+    delay: 3
+  check_commands:
+  - c welcome
+  - clan welcome
+  - msg
+  - w
+  - r
+  - mail
+  - m
+  - t
+  - whisper
+  - emsg
+  - tell
+  - er
+  - reply
+  - ereply
+  - action
+  - describe
+  - eme
+  - eaction
+  - edescribe
+  - etell
+  - ewhisper
+  - pm
+  - epm
+  - me
+  manager:
+    enabled: true
+    global:
+      enabled: true
+      radius: 100
+    prefixes: true
+    gformat: '§f[§5G§f] !clan!%prefix%%player% §8» §7%message%'
+    lformat: '§f[§3L§f] !clan!%prefix%%player% §8» §7%message%'
+commands:
+  cooldowns:
+    enabled: true
+    list:
+      sunmute: 60
+      day: 60
+      night: 60
+      time: 60
+      rtp: 60
+      thor: 60
+      burn: 60
+      lightning: 60
+      smite: 60
+      shock: 60
+      ethor: 60
+      eburn: 60
+      elightning: 60
+      esmite: 60
+      eshock: 60
+      msg: 10
+      w: 10
+      r: 10
+      mail: 10
+      m: 10
+      t: 10
+      whisper: 10
+      emsg: 10
+      tell: 10
+      er: 10
+      reply: 10
+      ereply: 10
+      action: 10
+      describe: 10
+      eme: 10
+      eaction: 10
+      edescribe: 10
+      etell: 10
+      ewhisper: 10
+      pm: 10
+      epm: 10
+      me: 10
+      fireball: 30
+      efireball: 30
+      strike: 60
+      estrike: 60
+blocks:
+  regions:
+    lava: true
+    water: true
+    blocks:
+    - 6
+    - 39
+    - 40
+    - 78
+  disabled:
+  - 23
+  - 49
+  - 122
+  - 120
+  - 7
+  - 166
+messages:
+  joinmsg: §6► {0}{1} §eзашел на сервер
+  cmd_cooldown: §f[§6*§f] §eкоманда будет доступна через §c{0} §eсекунд
+  symbols: §f[§6*§f] §eв вашем сообщении обнаружены запрещенные символы
+  digits: §f[§6*§f] §eв вашем сообщении слишком много цифр
+  chat_cooldown: §f[§6*§f] §eвы не можете писать в чат так часто
+  repeat: §f[§6*§f] §eвы не можете повторять сообщения так часто
+  lava_bucket_empty: §f[§6*§f] §eвы можете разливать лаву только на своём регионе
+  water_bucket_empty: §f[§6*§f] §eвы можете разливать воду только на своём регионе
+  lava_bucket_fill: §f[§6*§f] §eвы можете собирать лаву только на своём регионе
+  water_bucket_fill: §f[§6*§f] §eвы можете собирать воду только на своём регионе
+  fly_bow: §f[§6*§f] §eвы не можете стрелять из лука в полете
+  fly_potion: §f[§6*§f] §eвы не можете бросать зелья в полете
+  fly_pvp: §f[§6*§f] §eвы не можете бить игроков в полете
+  block_disabled: §f[§6*§f] §eданный блок запрещено ставить
+  block_region: §f[§6*§f] §eданный блок запрещено ставить вне вашего региона
+  words: §f[§6*§f] §eваше сообщение содержит запрещенные слова
+  gm_pvp: §f[§6*§f] §eвы не можете бить игроков в креативе

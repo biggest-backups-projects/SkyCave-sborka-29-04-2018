@@ -1,0 +1,172 @@
+settings:
+    # название окна
+    title: "§0Наборы"
+    # количество строк инвентаря. от 1 до 6
+    rows: 6
+    cmd: "kit"
+items:
+    bonus:
+        item: "264"
+        title: "§eНабор Bonus"
+        lore: |-
+            
+            §7Нажмите, чтобы получить
+            §7этот набор
+        action: "command:kit bonus"
+        slot: 1
+    start:
+        item: "270"
+        title: "§eНабор Start"
+        lore: |-
+
+            §7Нажмите, чтобы получить
+            §7этот набор
+        action: "command:kit start"
+        slot: 3
+    premium:
+        item: "274"
+        title: "§eНабор Premium"
+        lore: |-
+            
+            §7Этот набор доступен
+            §7от привилегии §f[§dPremium§f]
+            
+            §7Нажмите, чтобы получить
+            §7этот набор
+        action: "command:kit premium"
+        permission: "essentials.kits.premium" 
+        permission_message: "§cЭтот набор доступен от привилегии §f[§dPremium§f]"
+        slot: 5
+    master:
+        item: "257"
+        title: "§eНабор Master"
+        lore: |-
+            
+            §7Этот набор доступен
+            §7от привилегии §f[§eMaster§f]
+            
+            §7Нажмите, чтобы получить
+            §7этот набор
+        action: "command:kit master"
+        permission: "essentials.kits.master"
+        permission_message: "§cЭтот набор доступен от привилегии §f[§eMaster§f]"
+        slot: 7
+    creative:
+        item: "278"
+        title: "§eНабор Creative"
+        lore: |-
+            
+            §7Этот набор доступен
+            §7от привилегии §f[§2Creative§f]
+            
+            §7Нажмите, чтобы получить
+            §7этот набор
+        action: "command:kit creative"
+        permission: "essentials.kits.creative"
+        permission_message: "§cЭтот набор доступен от привилегии §f[§2Creative§f]"
+        slot: 9
+    ironman:
+        item: "307"
+        title: "§eНабор IronMan"
+        lore: |-
+            
+            §7Цена: §a$1,700
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit ironman"
+        slot: 21
+    archer:
+        item: "302"
+        title: "§eНабор Archer"
+        lore: |-
+            
+            §7Цена: §a$1,700
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit arhcer"
+        slot: 22
+    witch:
+        item: "376"
+        title: "§eНабор Witch"
+        lore: |-
+            
+            §7Цена: §a$2,200
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit witch"
+        slot: 23
+    god:
+        item: "322"
+        title: "§eНабор God"
+        lore: |-
+            
+            §7Цена: §a$2,000
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit god"
+        slot: 24
+    invisibleman:
+        item: "373"
+        title: "§eНабор invisibleMan"
+        lore: |-
+            
+            §7Цена: §a$2,100
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit invisibleman"
+        slot: 25
+    sword:
+        item: "276"
+        title: "§eМеч Геракла"
+        lore: |-
+            
+            §7Цена: §a$20,000
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit sword"
+        slot: 31
+    bow:
+        item: "261"
+        title: "§eЛук Леголаса"
+        lore: |-
+            
+            §7Цена: §a$10,000
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit bow"
+        slot: 32
+    hammer:
+        item: "279"
+        title: "§eМолот Тора"
+        lore: |-
+            
+            §7Цена: §a$15,000
+            §7Ваш баланс - $%money%
+
+            §7Нажмите, чтобы купить
+            §7этот набор
+        action: "command:kit hammer"
+        slot: 33
+    back:
+        item: "262"
+        title: "§aНазад"
+        lore: |-
+
+            §7Нажмите, чтобы вернуться
+            §7в главное меню
+        action: "page:menu"
+        slot: 50

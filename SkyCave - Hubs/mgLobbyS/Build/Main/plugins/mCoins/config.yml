@@ -1,0 +1,9 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+debug: true
+mysql:
+    host: 176.31.106.198
+    port: 3306
+    database: db1
+    username: db1
+    password: "Hb4OgnileufZExMz4779FRy1K0Nru4VZ"

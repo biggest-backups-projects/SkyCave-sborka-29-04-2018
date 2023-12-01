@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aFarmland
+map_folder: Farmland
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 2.0
+    y: 59.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 2.0
+    y: 59.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -2.0
+    y: 59.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -2.0
+    y: 59.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 6.0
+    y: 59.0
+    z: 19.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -5.0
+    y: 58.0
+    z: 42.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -19.0
+    y: 59.0
+    z: 6.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -42.0
+    y: 58.0
+    z: -5.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: -6.0
+    y: 59.0
+    z: -19.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 5.0
+    y: 58.0
+    z: -42.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 19.0
+    y: 59.0
+    z: -6.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Farmland
+    x: 42.0
+    y: 58.0
+    z: 5.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Farmland
+    x: 6.247044754474189
+    y: 110.20000004768372
+    z: -0.3494048846413584
+    pitch: 69.90006
+    yaw: -276.14862
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: -4.0
+      y: 59.0
+      z: -41.0
+    color_chat: RED
+    bed_direction: 2
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: -2.562207128465417
+      y: 59.0
+      z: -35.50754296708374
+      pitch: 3.0000396
+      yaw: -0.7495117
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: -41.0
+      y: 59.0
+      z: 4.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: -36.38237565773932
+      y: 59.0
+      z: 2.8279080448930545
+      pitch: 0.30005974
+      yaw: -92.09939
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: 41.0
+      y: 59.0
+      z: -4.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: 36.38060780405014
+      y: 59.0
+      z: -2.284313289895085
+      pitch: 3.4500468
+      yaw: -265.64923
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: 4.0
+      y: 59.0
+      z: 41.0
+    color_chat: YELLOW
+    bed_direction: 0
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Farmland
+      x: 3.650691190633029
+      y: 59.0
+      z: 37.19130121229084
+      pitch: -9.14995
+      yaw: 181.65004
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

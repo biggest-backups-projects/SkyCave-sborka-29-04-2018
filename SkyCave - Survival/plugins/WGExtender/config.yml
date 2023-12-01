@@ -1,0 +1,61 @@
+claim:
+  vertexpand:
+    enabled: true
+  blocklimits:
+    enabled: true
+    limits:
+      sponsor: 5000000
+      meduse: 2000000
+      legend: 1500000
+      lord: 2500000
+      admin: 5000000
+      magma: 1000000
+      creative: 1000000
+      ultra: 1500000
+      master: 750000
+      deluxe: 3000000
+      default: 500000
+      premium: 750000
+      helper: 5000000
+      moder: 5000000
+regionprotect:
+  flow:
+    lava:
+      enabled: true
+    water:
+      enabled: true
+  ignitebyplayer:
+    enabled: true
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: true
+customflags:
+  damage-animals:
+    enabled: true
+  block-interact:
+    enabled: true
+  entity-interact:
+    enabled: true
+autoflags:
+  enabled: true
+  flags:
+    mob-spawning: deny
+restrictcommands:
+  enabled: true
+  commands:
+  - esetwarp
+  - sethome
+  - setwarp
+  - esethome

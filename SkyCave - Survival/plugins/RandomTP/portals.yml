@@ -1,0 +1,13 @@
+rtp:
+  world: world
+  v1:
+    ==: Vector
+    x: -7047.0
+    y: 80.0
+    z: 3772.0
+  v2:
+    ==: Vector
+    x: -7047.0
+    y: 77.0
+    z: 3770.0
+  material: AIR

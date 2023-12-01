@@ -1,0 +1,249 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aCasino
+map_folder: Casino
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 2.2499852
+    yaw: -90.450005
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 12
+  max-players: 24
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -8.0
+    y: 57.0
+    z: -73.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -8.0
+    y: 57.0
+    z: -77.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 8.0
+    y: 57.0
+    z: -77.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 8.0
+    y: 57.0
+    z: -73.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 71.0
+    y: 57.0
+    z: -8.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 75.0
+    y: 57.0
+    z: -8.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 75.0
+    y: 57.0
+    z: 8.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 71.0
+    y: 57.0
+    z: 8.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 6.0
+    y: 57.0
+    z: 71.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 6.0
+    y: 57.0
+    z: 75.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -10.0
+    y: 57.0
+    z: 71.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -10.0
+    y: 57.0
+    z: 75.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -73.0
+    y: 57.0
+    z: 6.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -77.0
+    y: 57.0
+    z: 6.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -73.0
+    y: 57.0
+    z: -10.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -77.0
+    y: 57.0
+    z: -10.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -9.0
+    y: 57.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -3.0
+    y: 57.0
+    z: -4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 3.0
+    y: 57.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: -4.0
+    y: 57.0
+    z: 5.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Casino
+    x: 9.0
+    y: 57.0
+    z: -3.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Casino
+    x: -0.6742272766176711
+    y: 89.7792559450154
+    z: -1.7675804351105175
+    pitch: 9.900048
+    yaw: -89.25342
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: -2.0
+      y: 63.0
+      z: 68.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: -1.5
+      y: 58.0
+      z: 71.5
+      pitch: -0.29999867
+      yaw: -179.70126
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: 68.0
+      y: 63.0
+      z: 0.0
+    color_chat: GREEN
+    bed_direction: 3
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: 71.5
+      y: 58.0
+      z: 0.5
+      pitch: 0.45006981
+      yaw: -269.70123
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: 0.0
+      y: 63.0
+      z: -70.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: 0.5
+      y: 58.0
+      z: -72.5
+      pitch: -0.7499344
+      yaw: -358.3496
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: -70.0
+      y: 63.0
+      z: -2.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Casino
+      x: -72.5
+      y: 58.0
+      z: -1.5
+      pitch: -0.44999823
+      yaw: -89.852
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 40
+      silver: 300
+      gold: 900
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

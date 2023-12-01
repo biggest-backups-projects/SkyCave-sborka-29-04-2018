@@ -1,0 +1,183 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aChina
+map_folder: China
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 0.0
+    y: 62.0
+    z: -89.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 0.0
+    y: 62.0
+    z: -88.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 89.0
+    y: 62.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 88.0
+    y: 62.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 0.0
+    y: 62.0
+    z: 89.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 0.0
+    y: 62.0
+    z: 88.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: -89.0
+    y: 62.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: -88.0
+    y: 62.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: -2.0
+    y: 59.0
+    z: 5.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: China
+    x: 2.0
+    y: 59.0
+    z: -5.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: China
+    x: 1.5
+    y: 90.66616768368303
+    z: 0.5
+    pitch: 6.900011
+    yaw: 92.1
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 0.0
+      y: 60.0
+      z: 95.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 0.5
+      y: 60.0
+      z: 75.5
+      pitch: -2.8500195
+      yaw: -178.80014
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: -95.0
+      y: 60.0
+      z: 0.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: -74.5
+      y: 60.0
+      z: 0.5
+      pitch: -3.6000183
+      yaw: -88.65031
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 0.0
+      y: 60.0
+      z: -95.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 0.5
+      y: 60.0
+      z: -80.5
+      pitch: -2.4000037
+      yaw: 0.74999976
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 0.5
+      y: 60.0
+      z: -74.5
+      pitch: -3.749992
+      yaw: 2.854675E-4
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 95.0
+      y: 60.0
+      z: 0.0
+    color_chat: YELLOW
+    bed_direction: 3
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: China
+      x: 75.5
+      y: 60.0
+      z: 0.5
+      pitch: -5.1000314
+      yaw: 91.35011
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

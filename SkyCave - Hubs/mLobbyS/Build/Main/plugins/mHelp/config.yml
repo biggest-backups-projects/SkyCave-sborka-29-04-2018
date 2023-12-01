@@ -1,0 +1,31 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+help:
+    paginator: false
+    text: |+
+        §c╔═══════════════════════════════╗
+          §fВы находитесь на сервере §b§lSkyCave
+          §fАдрес сервера - §emc.skycave.ru
+        
+          §fВернуться в главное лобби - §e/lobby
+          §fПолная инфа о донате - §e/donate
+
+          §fСайт сервера - §eskycave.ru
+          §fГруппа ВКонтакте - §evk.com/skycave
+        §c╚═══════════════════════════════╝
+pl:
+    paginator: true
+    1: |-
+        
+    2: |-
+        §fПривет       
+    3: |-
+        §fпидор
+plugins:
+    paginator: true
+    1: |-
+        
+    2: |-
+        §fПривет       
+    3: |-
+        §fпидор

@@ -1,0 +1,47 @@
+settings:
+    # название окна
+    title: "Телепортатор"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+items:
+    survival-1:
+        item: "257"
+        title: "§eСервер §3§lАльфа"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-1"
+        closeOnClick: true
+        slot: 2
+    survival-2:
+        item: "257"
+        title: "§eСервер §3§lБраво"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-2"
+        closeOnClick: true
+        slot: 4
+    survival-3:
+        item: "257"
+        title: "§eСервер §3§lЧарли"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-3"
+        closeOnClick: true
+        slot: 6
+    survival-4:
+        item: "257"
+        title: "§eСервер §3§lДельта"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-4"
+        closeOnClick: true
+        slot: 8
+    close:
+        item: "262"
+        title: "§aЗакрыть" 
+        closeOnClick: true
+        slot: 23

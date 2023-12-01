@@ -1,0 +1,188 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&f[&7Player&f] &9'
+    permissions:
+    - -bukkit.command.*
+    - -minecraft.command.*
+    - mCore.hub
+  premium:
+    options:
+      default: false
+      prefix: '&f[&dPremium&f] &d'
+    inheritance:
+    - default
+    permissions:
+    - permission.test
+  master:
+    options:
+      default: false
+      prefix: '&f[&eMaster&e] &e'
+    inheritance:
+    - premium
+    permissions:
+    - permission.test
+  creative:
+    options:
+      default: false
+      prefix: '&f[&2Creative&f] &2'
+    inheritance:
+    - master
+    permissions:
+    - permission.test
+  magma:
+    options:
+      default: false
+      prefix: '&f[&6Magma&f] &6'
+    inheritance:
+    - creative
+    permissions:
+    - permission.test
+  ultra:
+    options:
+      default: false
+      prefix: '&f[&bUltra&f] &b'
+    inheritance:
+    - magma
+    permissions:
+    - permission.test
+  legend:
+    options:
+      default: false
+      prefix: '&f[&9Legend&f] &9'
+    inheritance:
+    - ultra
+    permissions:
+    - permission.test
+  meduse:
+    options:
+      default: false
+      prefix: '&f[&aMeduse&f] &a'
+    inheritance:
+    - legend
+    permissions:
+    - mSkyWars.health.first
+    - mSkyWars.loot.first
+    - mSkyWars.rage.first
+    - mSkyWars.vampirism.first
+    - mBedWars.bonus.first
+    - mBedWars.health.first
+    - mBedWars.rage.first
+    - mBedWars.sale.first
+    - mBedWars.vampirism.first
+    - mSkyWars.perks.one
+    - mBedWars.perks.one
+  lord:
+    options:
+      default: false
+      prefix: '&f[&cLord&f] &c'
+    inheritance:
+    - meduse
+    permissions:
+    - mSkyWars.speed.first
+    - mSkyWars.locator.first
+    - mSkyWars.health.second
+    - mSkyWars.loot.second
+    - mSkyWars.rage.second
+    - mSkyWars.vampirism.second
+    - mBedWars.bonus.second
+    - mBedWars.health.second
+    - mBedWars.rage.second
+    - mBedWars.sale.second
+    - mBedWars.vampirism.second
+    - mBedWars.locator.first
+    - mBedWars.inventory.first
+    - mBedWars.coins.first
+    - mSkyWars.coins.first
+    - mSkyWars.perks.two
+    - mBedWars.perks.two
+  deluxe:
+    options:
+      default: false
+      prefix: '&f[&5Deluxe&f] &5'
+    inheritance:
+    - lord
+    permissions:
+    - mSkyWars.health.third
+    - mSkyWars.loot.third
+    - mSkyWars.rage.third
+    - mSkyWars.vampirism.third
+    - mSkyWars.speed.second
+    - mSkyWars.locator.second
+    - mSkyWars.platform.first
+    - mBedWars.locator.second
+    - mBedWars.inventory.second
+    - mBedWars.bonus.third
+    - mBedWars.health.third
+    - mBedWars.rage.third
+    - mBedWars.sale.third
+    - mBedWars.vampirism.third
+    - mBedWars.coins.second
+    - mSkyWars.coins.second
+    - mSkyWars.perks.two
+    - mBedWars.perks.two
+  admin:
+    options:
+      default: false
+      prefix: '&f[&4Admin&f] &4'
+    inheritance:
+    - deluxe
+    permissions:
+    - mSkyWars.health.fourth
+    - mSkyWars.loot.fourth
+    - mSkyWars.rage.fourth
+    - mSkyWars.vampirism.fourth
+    - mSkyWars.speed.third
+    - mSkyWars.locator.third
+    - mSkyWars.platform.second
+    - mBedWars.locator.third
+    - mBedWars.inventory.third
+    - mBedWars.bonus.fourth
+    - mBedWars.health.fourth
+    - mBedWars.rage.fourth
+    - mBedWars.sale.fourth
+    - mBedWars.vampirism.fourth
+    - mBedWars.coins.third
+    - mSkyWars.coins.third
+    - mSkyWars.perks.three
+    - mBedWars.perks.three
+  helper:
+    options:
+      default: false
+      prefix: '&f[&7Helper&f] &7'
+    inheritance:
+    - sponsor
+    permissions:
+    - mAssistant.welcome
+  moder:
+    options:
+      default: false
+      prefix: '&f[&3Moder&f] &3'
+    inheritance:
+    - helper
+    permissions:
+    - mCommands.mbans.*
+  developer:
+    options:
+      default: false
+      prefix: '&f[&aDev&f] &a'
+    permissions:
+    - '*'
+  owner:
+    options:
+      default: false
+      prefix: '&f[&4Owner&f] &4'
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  rigbi:
+    group:
+    - owner
+  jampire:
+    group:
+    - developer
+  jaquers:
+    permissions:
+    - '*'

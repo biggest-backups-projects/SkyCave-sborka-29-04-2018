@@ -1,0 +1,15 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+items:
+  '1':
+    item: '377'
+    title: §eМеню §7(ПКМ)
+    action: page:menu
+    action_cooldown: 200
+    move: true
+  '2':
+    item: '388'
+    title: §eДонат услуги §7(ПКМ)
+    action: page:donate
+    action_cooldown: 200
+    move: true

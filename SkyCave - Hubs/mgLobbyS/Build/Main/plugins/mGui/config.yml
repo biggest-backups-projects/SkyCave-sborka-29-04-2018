@@ -1,0 +1,44 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+items:
+    # предмет хотбара который должен открывать окно. от 1 до 9
+    1:
+        # тип предмета
+        item: "388"
+        # название предмета (параметр не обязателен)
+        title: "§eДонат услуги"
+        # действие, которое будет выполнено при нажатии на предмет (параметр не обязателен)
+        action: "page:donate"
+        # если игрок нажмет кнопку чаще периода задержки - ее код не будет исполнен. значение в миллисекундах (параметр не обязателен)
+        action_cooldown: 200
+        move: false
+    2:
+        item: "340"
+        title: "§eВыбор мини-игры"
+        action: "page:menu"
+        action_cooldown: 200
+        move: false
+    7:
+        item: "266"
+        title: "§eМонетки"
+        action: "command:coins"
+        action_cooldown: 200
+        move: false
+    5:
+        item: "341"
+        title: "§eВыбор лобби"
+        action: "command:mlobby lobbies"
+        action_cooldown: 200
+        move: false
+    8:
+        item: "397:3"
+        title: "§eСтатистика"
+        action: "command:mlobby stats"
+        action_cooldown: 200
+        move: false
+    9:
+        item: "399"
+        title: "§eВыбор выживания"
+        action: "page:lobbys"
+        action_cooldown: 200
+        move: false

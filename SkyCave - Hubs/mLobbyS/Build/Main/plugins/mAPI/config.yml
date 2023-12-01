@@ -1,0 +1,5 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+healthbar:
+    enabled: false
+    tag: Health

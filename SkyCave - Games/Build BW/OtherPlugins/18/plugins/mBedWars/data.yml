@@ -1,0 +1,176 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aColiseum
+map_folder: Coliseum
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 10
+  max-players: 20
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: -53.0
+    y: 65.0
+    z: 45.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 0.0
+    y: 64.0
+    z: 54.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 45.0
+    y: 65.0
+    z: 53.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 54.0
+    y: 64.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 53.0
+    y: 65.0
+    z: -45.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 0.0
+    y: 64.0
+    z: -54.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: -45.0
+    y: 65.0
+    z: -53.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: -54.0
+    y: 64.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: -14.0
+    y: 64.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Coliseum
+    x: 14.0
+    y: 64.0
+    z: 0.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Coliseum
+    x: 0.5
+    y: 83.12380452365196
+    z: 0.5
+    pitch: 0.2999956
+    yaw: -179.7002
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: -40.0
+      y: 66.0
+      z: -42.0
+    color_chat: RED
+    bed_direction: 1
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: -43.5
+      y: 66.0
+      z: -44.5
+      pitch: -1.6500006
+      yaw: -44.10024
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: -42.0
+      y: 66.0
+      z: 40.0
+    color_chat: GREEN
+    bed_direction: 0
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: -44.5
+      y: 66.0
+      z: 44.5
+      pitch: -1.6500015
+      yaw: 225.59999
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: 42.0
+      y: 66.0
+      z: -40.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: 45.5
+      y: 66.0
+      z: -43.5
+      pitch: -2.0999944
+      yaw: 45.449924
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: 40.0
+      y: 66.0
+      z: 42.0
+    color_chat: YELLOW
+    bed_direction: 3
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Coliseum
+      x: 44.5
+      y: 66.0
+      z: 45.5
+      pitch: -1.6499861
+      yaw: 134.99991
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

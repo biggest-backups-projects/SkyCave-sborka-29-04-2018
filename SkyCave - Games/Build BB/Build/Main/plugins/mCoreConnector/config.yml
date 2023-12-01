@@ -1,0 +1,16 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+core:
+    host: 54.36.126.45
+    port: 5555
+    password: "QxyKH$#of9oXL1~E"
+server-name: "proxy-1"
+tab:
+  header: |-
+    §3§lSpeed§6§lCraft
+    §fСкидки на донат §d90%
+    §fОнлайн магазин для покупки доната
+    §awww.speedcraft.su
+  footer: |-
+    §fАйпи адрес:
+    §amc.speed-craft.ru

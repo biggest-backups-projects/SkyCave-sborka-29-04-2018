@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aTeatown
+map_folder: Teatown
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 6
+  max-players: 12
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 5.0
+    y: 100.0
+    z: 82.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: -82.0
+    y: 100.0
+    z: 5.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: -5.0
+    y: 100.0
+    z: -82.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 82.0
+    y: 100.0
+    z: -5.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 6.0
+    y: 97.0
+    z: 75.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: -75.0
+    y: 97.0
+    z: 6.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: -6.0
+    y: 97.0
+    z: -75.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 75.0
+    y: 97.0
+    z: -6.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 0.0
+    y: 99.0
+    z: 4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: -4.0
+    y: 99.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 0.0
+    y: 99.0
+    z: -4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Teatown
+    x: 5.0
+    y: 99.0
+    z: 1.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Teatown
+    x: 0.5
+    y: 125.78260144802758
+    z: 0.5
+    pitch: 4.9499793
+    yaw: -180.59937
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 0.0
+      y: 100.0
+      z: 85.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 0.5
+      y: 100.0
+      z: 78.5
+      pitch: -3.149986
+      yaw: 180.30063
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 85.0
+      y: 100.0
+      z: 0.0
+    color_chat: GREEN
+    bed_direction: 3
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 78.5
+      y: 100.0
+      z: 0.5
+      pitch: -3.1499903
+      yaw: 90.00073
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: -85.0
+      y: 100.0
+      z: 0.0
+    color_chat: BLUE
+    bed_direction: 1
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: -77.5
+      y: 100.0
+      z: 0.5
+      pitch: -2.999997
+      yaw: -90.299446
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 0.0
+      y: 100.0
+      z: -85.0
+    color_chat: YELLOW
+    bed_direction: 2
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Teatown
+      x: 0.5
+      y: 100.0
+      z: -77.5
+      pitch: -3.7499943
+      yaw: -0.14929199
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

@@ -1,0 +1,35 @@
+lastAccountName: Chocobo
+timestamps:
+  login: 1521196334583
+  logout: 1521200934454
+  lastteleport: 1521196376933
+ipAddress: 95.153.130.79
+logoutlocation:
+  world: world
+  x: 596.2903548298129
+  y: 73.0
+  z: 527.2849185021303
+  yaw: 356.40045
+  pitch: -25.95
+lastlocation:
+  world: world
+  x: -16.221994777511817
+  y: 126.95158861314226
+  z: 95.09034078798885
+  yaw: -196.39891
+  pitch: 55.950005
+homes:
+  rrr:
+    world: world
+    x: 213.2953526083898
+    y: 99.23887321588468
+    z: 362.55714045696027
+    yaw: -265.54865
+    pitch: 36.592464
+  ttt:
+    world: world
+    x: 593.5384808597819
+    y: 91.36834411312465
+    z: 624.0373399654306
+    yaw: 355.00122
+    pitch: 4.8000197

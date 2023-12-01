@@ -1,0 +1,53 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+mongo:
+  host: 54.36.126.45
+  port: 27017
+  database: admin
+  login: root
+  password: uH9z2gNi0gSAQlv2309D6OFjAU0bcpiyWNT94zrM6OsuhGz6
+  collection: sky_s4
+settings:
+  clans:
+    size: 50
+    time:
+      invite: 30
+    sizes:
+      tag:
+        max: 12
+        min: 2
+      rank:
+        name:
+          max: 8
+          min: 2
+        displayname:
+          max: 10
+          min: 3
+    costs:
+      create: 5000
+      rename: 5000
+    cooldowns:
+      home: 10
+      tpall: 10
+      pvp: 10
+  ranks:
+    max: 10
+    default:
+      Leader:
+        color: GOLD
+      Moder:
+        color: GREEN
+        permissions:
+        - HOME_SET
+        - HOME_TP
+        - INVITE
+        - KICK
+        - WELCOME
+        - CHAT
+        - BALANCE_DEPOSIT
+      Player:
+        color: GRAY
+        permissions:
+        - CHAT
+        - HOME_TP
+        - BALANCE_DEPOSIT

@@ -1,0 +1,11 @@
+force-on-join: false
+force-on-void: false
+force-portals: true
+spawn:
+  ==: org.bukkit.Location
+  world: world
+  x: 596.5164199299179
+  y: 73.0
+  z: 528.4857834179935
+  pitch: -0.44985452
+  yaw: -2.0888853

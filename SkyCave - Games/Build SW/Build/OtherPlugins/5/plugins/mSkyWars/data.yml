@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aSkyBlock
+map_folder: SkyBlock
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 3.7500036
+    yaw: 269.69998
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 2.63724809953825
+    y: 119.4723707546468
+    z: 1.1608065664709746
+    pitch: 20.55001
+    yaw: -0.15026855
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 27.5
+    y: 97.0
+    z: -24.5
+    pitch: 1.3500208
+    yaw: 56.399364
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 8.5
+    y: 97.0
+    z: -24.5
+    pitch: 1.20001
+    yaw: 30.149374
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -10.5
+    y: 97.0
+    z: -24.5
+    pitch: -1.7999634
+    yaw: 13.799378
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -28.5
+    y: 97.0
+    z: -24.5
+    pitch: -3.5999784
+    yaw: -38.100647
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -28.5
+    y: 97.0
+    z: -5.5
+    pitch: -3.1499672
+    yaw: -91.35065
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -28.5
+    y: 97.0
+    z: 13.5
+    pitch: -1.6499223
+    yaw: -121.500725
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -28.5
+    y: 97.0
+    z: 32.5
+    pitch: -3.1499407
+    yaw: -136.65074
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -10.5
+    y: 97.0
+    z: 32.5
+    pitch: -2.3999407
+    yaw: -148.95073
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 8.5
+    y: 97.0
+    z: 32.5
+    pitch: -2.999994
+    yaw: -192.60072
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 27.5
+    y: 97.0
+    z: 32.5
+    pitch: -4.5000024
+    yaw: -223.05064
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 27.5
+    y: 97.0
+    z: 13.5
+    pitch: -1.7999892
+    yaw: -268.35062
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 27.5
+    y: 97.0
+    z: -5.5
+    pitch: -3.5999608
+    yaw: -282.75067
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 8.5
+    y: 97.0
+    z: -5.5
+    pitch: -4.3500023
+    yaw: -316.20074
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -10.5
+    y: 97.0
+    z: -5.5
+    pitch: 6.1303376E-6
+    yaw: 6.8992567
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: -10.5
+    y: 97.0
+    z: 13.5
+    pitch: 0.30000132
+    yaw: -147.15076
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: SkyBlock
+    x: 8.5
+    y: 97.0
+    z: 13.5
+    pitch: -2.5500026
+    yaw: -240.30072
+  time:
+    type: FIXED
+    value: 1000

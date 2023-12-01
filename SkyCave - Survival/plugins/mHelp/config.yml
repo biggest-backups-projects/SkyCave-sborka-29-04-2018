@@ -1,0 +1,32 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+help:
+    paginator: false
+    text: |+
+        §c╔═══════════════════════════════╗
+          §fВы находитесь на сервере §6§lSkyCave
+          §fАдрес сервера - §emc.skycave.ru
+        
+          §fВернуться в главное лобби - §a/lobby
+          §fПолная инфа о донате - §b/donate
+
+          §fСайт сервера - §cskycave.ru
+          §fГруппа ВКонтакте - §cvk.com/skycave
+        §c╚═══════════════════════════════╝
+pl:
+    paginator: false
+    text: |+
+        §fPlugins (3): §amSurvival§f, §amEssentials§f, §amJampire
+plugins:
+    paginator: false
+    text: |+
+        §fPlugins (3): §amSurvival§f, §amEssentials§f, §amJampire
+helprg:
+    paginator: false
+    text: |+
+          §e//wand §f- взять топор для привата региона
+          §e//expand §f- расширить свой регион
+          §e//rg claim «название» §f- заприватить регион
+          §e/rg addmember «название_региона» «ник_игрока» §f- добавить участника в регион
+          §e/rg addowner «название_региона» «ник_игрока» §f- добавить владельца в регион
+          §e/rg del «название_региона» §f- удалить регион

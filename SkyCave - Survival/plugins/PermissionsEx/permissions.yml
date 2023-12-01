@@ -1,0 +1,437 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&f[&7Игрок&f] &9'
+      shortprefix: '&7'
+      weight: 1
+    permissions:
+    - marry.default
+    - randomtp.tp
+    - randomtp.portal.use
+    - authme.player.*
+    - speedbans.see
+    - cases.open
+    - cases.list
+    - cases.number
+    - serversigns.use
+    - killermoney.getcash
+    - customjoinitems.*
+    - essentials.helpop
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.wand.toggle
+    - speedcraftclans.use
+    - worldedit.wand
+    - essentials.silentjoin
+    - essentials.silentquit
+    - worldedit.selection.expand
+    - signs.use.warp
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.claim
+    - worldguard.region.addmember.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.remove
+    - worldguard.region.wand
+    - worldguard.region.remove.own.*
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - essentials.kit
+    - worldguard.region.info.own.*
+    - essentials.balance
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.kits.IronMan
+    - essentials.kits.Archer
+    - essentials.kits.Witch
+    - essentials.kits.God
+    - essentials.kits.InvisibleMan
+    - essentials.kits.sword
+    - essentials.kits.bow
+    - essentials.kits.hammer
+    - essentials.pay
+    - essentials.buy
+    - essentials.tpa
+    - essentials.rules
+    - essentials.spawn
+    - essentials.home
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.ignore
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.signs.use.
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.trade
+    - essentials.signs.use.*
+    - essentials.signs.use*
+    - essentials.help
+    - essentials.warp
+    - essentials.warp.list
+    - creativegates.use
+    - chatmanager.chat.global
+    - -authme.unregister
+    - essentials.msg
+    - essentials.deletehome
+    - authme.changepassword
+    - -essentials.afk
+    - dynpad.*
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.use.*
+    - -bukkit.command.*
+    - -minecraft.command.*
+    - essentials.motd
+    - chestcommands.command.open
+    - chestcommands.item.menu.yml
+    - worldguard.region.list.own
+    - chestcommands.open.*
+    - chestcommands.command.open*
+    - -chestcommands.command.open.others
+    - -essentials.info
+    - safetrade.request
+    - safetrade.accept
+    - safetrade.deny
+    - auction.limit.15
+    - jobs.use
+    - worldguard.region.select.own.*
+    - worldguard.region.setpriority.own.*
+    - worldguard.region.setparent.own.*
+    - worldguard.region.teleport.own.*
+    - worldguard.region.teleport.member.*
+    - mCore.goto
+    - mCore.reply
+    - mCore.tell
+    - mCore.find
+    - mCore.hub
+  premium:
+    options:
+      default: false
+      prefix: '&f[&dПремиум&f] &d'
+      shortprefix: '&dПремиум &7'
+      weight: 2
+    inheritance:
+    - default
+    permissions:
+    - essentials.kits.premium
+    - essentials.sethome.multiple.premium
+    - mAssistant.welcome
+    - essentials.fly
+    - essentials.hat
+    - essentials.back
+    - essentials.recipe
+  master:
+    options:
+      default: false
+      prefix: '&f[&eМастер&e] &e'
+      shortprefix: '&eМастер &7'
+      weight: 3
+    inheritance:
+    - premium
+    permissions:
+    - essentials.balance.others
+    - essentials.feed
+    - essentials.heal
+    - essentials.repair
+    - essentials.repair.all
+    - essentials.workbench
+    - essentials.enderchest
+    - essentials.endersee
+    - essentials.sethome.multiple.master
+    - essentials.kits.master
+  creative:
+    options:
+      default: false
+      prefix: '&f[&2Креатив&f] &2'
+      shortprefix: '&2Креатив &7'
+      weight: 4
+    inheritance:
+    - master
+    permissions:
+    - essentials.firework
+    - essentials.gamemode.all
+    - essentials.ignore
+    - essentials.sethome.multiple.creative
+    - essentials.kits.creative
+  magma:
+    options:
+      default: false
+      prefix: '&f[&6Магма&f] &6'
+      shortprefix: '&6Магма &7'
+      weight: 5
+    inheritance:
+    - creative
+    permissions:
+    - mBansLocal.kick
+    - worldedit.navigation.thru.command
+    - essentials.balancetop
+    - essentials.list
+    - essentials.god
+    - essentials.sethome.multiple.magma
+    - essentials.tp
+  ultra:
+    options:
+      default: false
+      prefix: '&f[&bУльтра&f] &b'
+      shortprefix: '&bУльтра &7'
+      weight: 6
+    inheritance:
+    - magma
+    permissions:
+    - essentials.clearinventory
+    - essentials.clear
+    - essentials.invsee
+    - essentials.endersee.others
+    - essentials.endersee
+    - essentials.enderchest.others
+    - essentials.enderchest
+    - essentials.me
+    - worldguard.region.info.*
+    - essentials.tppos
+    - essentials.exp
+    - essentials.exp.give
+    - worldguard.region.flag.flags.chest-access.*
+    - worldguard.region.flag.flags.potion-splash.*
+    - worldguard.region.flag.flags.build.*
+    - worldguard.region.flag.flags.farewall.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.mob-damage.*
+    - worldguard.region.flag.flags.invincible.*
+    - worldguard.region.flag.flags.enderpearl.*
+    - mAssistant.chat.colors
+    - essentials.sethome.multiple.ultra
+    - worldguard.region.flag.flags.farewall.*
+    - worldguard.region.flag.flags.greeting.*
+    - essentials.near
+    - essentials.jump
+  legend:
+    options:
+      default: false
+      prefix: '&f[&9Легенда&f] &9'
+      shortprefix: '&9Легенда &7'
+      weight: 7
+    inheritance:
+    - ultra
+    permissions:
+    - essentials.enchant.*
+    - essentials.enchant
+    - essentials.enchantments.*
+    - essentials.antioch
+    - essentials.fireball
+    - essentials.socialspy
+    - essentials.speed
+    - essentials.seen
+    - essentials.whois
+    - essentials.sethome.multiple.legend
+    - mBansLocal.mute
+    - mBansLocal.unmute
+  meduse:
+    options:
+      default: false
+      prefix: '&f[&aМедуза&f] &a'
+      shortprefix: '&aМедуза &7'
+      weight: 8
+    inheritance:
+    - legend
+    permissions:
+    - essentials.vanish
+    - essentials.top
+    - essentials.gc
+    - essentials.setwarp
+    - essentials.tp.others
+    - essentials.spawn.othets
+    - essentials.warp.15
+    - essentials.sethome.multiple.meduse
+    - essentials.ptime.set
+    - essentials.ptime
+    - essentials.getpos.others
+    - essentials.getpos
+    - speedmode.allow.switchInventories
+    - speedmode.allow.animalsUse
+    - speedmode.allow.deathDrops
+    - speedmode.allow.itemPickup
+    - speedmode.allow.itemThrow
+    - speedmode.allow.frames
+    - speedmode.allow.bypassBlockPlaceBlacklist
+    - speedmode.allow.bypassInteractBlacklistBlocks
+    - speedmode.allow.bypassCommandsBlacklist
+    - speedmode.allow.minecarts
+  lord:
+    options:
+      default: false
+      prefix: '&f[&cЛорд&f] &c'
+      shortprefix: '&cЛорд &7'
+      weight: 9
+    inheritance:
+    - meduse
+    permissions:
+    - worldedit.region.set
+    - worldedit.region.replace
+    - worldedit.region.walls
+    - worldedit.region.faces
+    - worldedit.generation.sphere
+    - worldedit.generation.cylinder
+    - worldedit.generation.pyramid
+    - worldedit.history.undo
+    - essentials.nick
+    - essentials.sethome.multiple.lord
+    - fawe.worldguard
+    - worldedit.history.redo
+    - worldedit.history.clear
+    - fawe.limit.lord
+  deluxe:
+    options:
+      default: false
+      prefix: '&f[&5Делюкс&f] &5'
+      shortprefix: '&5Делюкс &7'
+      weight: 10
+    inheritance:
+    - lord
+    permissions:
+    - essentials.lightning
+    - essentials.more
+    - worldedit.clipboard.copy
+    - worldedit.clipboard.paste
+    - essentials.sethome.multiple.deluxe
+    - worldedit.clipboard.rotate
+    - essentials.tptoggle
+    - mBansLocal.kill
+    - mBansLocal.ban
+    - essentials.burn
+    - fawe.limit.deluxe
+  admin:
+    options:
+      default: false
+      prefix: '&f[&4Админ&f] &4'
+      shortprefix: '&4Админ &7'
+      weight: 11
+    inheritance:
+    - deluxe
+    permissions:
+    - worldedit.navigation.*
+    - worldedit.biome.*
+    - worldedit.generation.*
+    - worldedit.selection.*
+    - worldedit.analysis.*
+    - worldedit.region.*
+    - worldedit.clipboard.rotate
+    - worldedit.clipboard.flip
+    - worldedit.schematic.upload
+    - worldedit.drain
+    - worldedit.green
+    - worldedit.replacenear
+    - worldedit.removenear
+    - worldedit.removebelow
+    - worldedit.removeabove
+    - worldedit.fixwater
+    - worldedit.fixlava
+    - worldedit.fill.recursive
+    - worldedit.fill
+    - worldedit.snow
+    - worldedit.thaw
+    - essentials.sethome.multiple.sponsor
+    - fawe.limit.admin
+    - mBansLocal.protect
+  sponsor:
+    options:
+      default: false
+      prefix: '&f[&a&lСпонсор&f] &a&l'
+      shortprefix: '&a&lСпонсор &7'
+      weight: 12
+    inheritance:
+    - admin
+    permissions:
+    - worldedit.navigation.*
+    - worldedit.biome.*
+    - worldedit.generation.*
+    - worldedit.selection.*
+    - worldedit.analysis.*
+    - worldedit.region.*
+    - worldedit.clipboard.rotate
+    - worldedit.clipboard.flip
+    - worldedit.schematic.upload
+    - worldedit.drain
+    - worldedit.green
+    - worldedit.replacenear
+    - worldedit.removenear
+    - worldedit.removebelow
+    - worldedit.removeabove
+    - worldedit.fixwater
+    - worldedit.fixlava
+    - worldedit.fill.recursive
+    - worldedit.fill
+    - worldedit.snow
+    - worldedit.thaw
+    - essentials.sethome.multiple.sponsor
+    - fawe.limit.sponsor
+    - worldedit.brush.*
+    - -worldedit.brush.recursive
+    - -worldedit.brush.populateschematic
+    - -worldedit.brush.command
+    - -worldedit.brush.copy
+    - -worldedit.brush.butcher
+  helper:
+    options:
+      default: false
+      prefix: '&f[&7Помощник&f] &7'
+      shortprefix: '&7Хелпер &7'
+      weight: 13
+    inheritance:
+    - sponsor
+    permissions:
+    - -mAssistant.welcome
+    - mBansLocal.*
+    - -mBansLocal.setjail
+    - -mBansLocal.ban
+    - mAssistant.chat.spy
+    - essentials.helpop.receive
+    - essentials.vanish.see
+    - essentials.tpo
+    - mAssistant.admin
+  moder:
+    options:
+      default: false
+      prefix: '&f[&3Модер&f] &3'
+      shortprefix: '&3Модер &7'
+      weight: 14
+    inheritance:
+    - helper
+    permissions:
+    - mCommands.mbans.*
+    - mBansLocal.*
+  moder2:
+    options:
+      default: false
+      prefix: '&f[&3Модер&f] &3'
+      shortprefix: '&3Модер §3'
+      weight: 15
+    inheritance:
+    - moder
+    permissions:
+    - mCommands.mbans.*
+    - mBansLocal.*
+  developer:
+    options:
+      default: false
+      prefix: '&f[&aРазраб&f] &a'
+      shortprefix: '&aРазработчик &7'
+      weight: 16
+    permissions:
+    - '*'
+  owner:
+    options:
+      default: false
+      prefix: '&f[&4Владелец&f] &4'
+      shortprefix: '&4Владелец &4'
+      weight: 17
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  6067f3d5-a681-394d-bbff-cd246569952b:
+    group:
+    - owner
+    options:
+      name: RIGBI

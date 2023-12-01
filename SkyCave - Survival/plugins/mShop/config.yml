@@ -1,0 +1,455 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+items:
+  '1':
+    title: Камень
+    price: 200
+    amount: 32
+  '2':
+    title: Блок травы
+    price: 200
+    amount: 16
+  '3':
+    title: Земля
+    price: 200
+    amount: 64
+  '4':
+    title: Булыжник
+    price: 200
+    amount: 32
+  '5':
+    title: Дубовая доска
+    price: 200
+    amount: 32
+  '5:1':
+    title: Еловая доска
+    price: 200
+    amount: 32
+  '5:2':
+    title: Березовая доска
+    price: 200
+    amount: 32
+  '5:3':
+    title: Доска из тропического дерева
+    price: 200
+    amount: 32
+  '5:4':
+    title: Доска из акации
+    price: 200
+    amount: 32
+  '5:5':
+    title: Доска из темного дуба
+    price: 200
+    amount: 32
+  '12':
+    title: Песок
+    price: 200
+    amount: 32
+  '12:1':
+    title: Красный песок
+    price: 200
+    amount: 32
+  '13':
+    title: Гравий
+    price: 300
+    amount: 12
+  '17':
+    title: Дуб
+    price: 300
+    amount: 16
+  '17:1':
+    title: Ель
+    price: 300
+    amount: 16
+  '17:2':
+    title: Береза
+    price: 300
+    amount: 16
+  '17:3':
+    title: Тропическое дерево
+    price: 300
+    amount: 16
+  '20':
+    title: Стекло
+    price: 200
+    amount: 16
+  '24':
+    title: Песчаник
+    price: 300
+    amount: 16
+  '24:1':
+    title: Резной песчаник
+    price: 200
+    amount: 16
+  '24:2':
+    title: Гладкий песчаник
+    price: 200
+    amount: 16
+  '35':
+    title: Белая шерсть
+    price: 300
+    amount: 16
+  '35:1':
+    title: Оранжевая шерсть
+    price: 300
+    amount: 16
+  '35:2':
+    title: Пурпурная шерсть
+    price: 300
+    amount: 16
+  '35:3':
+    title: Голубая шерсть
+    price: 300
+    amount: 16
+  '35:4':
+    title: Желтая шерсть
+    price: 300
+    amount: 16
+  '35:5':
+    title: Лаймовая шерсть
+    price: 300
+    amount: 16
+  '35:6':
+    title: Розовая шерсть
+    price: 300
+    amount: 16
+  '35:7':
+    title: Серая шерсть
+    price: 300
+    amount: 16
+  '35:8':
+    title: Светло-серая шерсть
+    price: 300
+    amount: 16
+  '35:9':
+    title: Бирюзовая шерсть
+    price: 300
+    amount: 16
+  '35:10':
+    title: Фиолетовая шерсть
+    price: 300
+    amount: 16
+  '35:11':
+    title: Синяя шерсть
+    price: 300
+    amount: 16
+  '35:12':
+    title: Коричневая шерсть
+    price: 300
+    amount: 16
+  '35:13':
+    title: Зеленая шерсть
+    price: 300
+    amount: 16
+  '35:14':
+    title: Красная шерсть
+    price: 300
+    amount: 16
+  '35:15':
+    title: Черная шерсть
+    price: 300
+    amount: 16
+  '45':
+    title: Кирпичи
+    price: 200
+    amount: 32
+  '47':
+    title: Книжная полка
+    price: 200
+    amount: 16
+  '48':
+    title: Замшелый булыжник
+    price: 600
+    amount: 16
+  '79':
+    title: Лед
+    price: 200
+    amount: 16
+  '80':
+    title: Снег
+    price: 300
+    amount: 16
+  '82':
+    title: Глина
+    price: 200
+    amount: 16
+  '87':
+    title: Адский камень
+    price: 200
+    amount: 32
+  '88':
+    title: Песок душ
+    price: 150
+    amount: 16
+  '89':
+    title: Светящийся камень
+    price: 100
+    amount: 16
+  '91':
+    title: Светильник Джека
+    price: 70
+    amount: 8
+  '98':
+    title: Каменные кирпичи
+    price: 200
+    amount: 32
+  '98:1':
+    title: Замшелые каменные кирпичи
+    price: 200
+    amount: 16
+  '98:2':
+    title: Потресканные каменные кирпичи
+    price: 200
+    amount: 16
+  '98:3':
+    title: Резные каменные кирпичи
+    price: 200
+    amount: 16
+  '110':
+    title: Мицелий
+    price: 200
+    amount: 16
+  '112':
+    title: Адские кирпичи
+    price: 200
+    amount: 16
+  '155':
+    title: Кварцевый блок
+    price: 200
+    amount: 32
+  '155:1':
+    title: Кварцевая колона
+    price: 200
+    amount: 32
+  '155:2':
+    title: Резной кварцевый блок
+    price: 200
+    amount: 32
+  '162':
+    title: Акация
+    price: 300
+    amount: 16
+  '162:1':
+    title: Темный дуб
+    price: 300
+    amount: 16
+  '391':
+    title: Морковь
+    price: 100
+    amount: 8
+  '375':
+    title: Паучий глаз
+    price: 150
+    amount: 8
+  '360':
+    title: Арбуз
+    price: 100
+    amount: 8
+  '354':
+    title: Торт
+    price: 50
+    amount: 1
+  '400':
+    title: Тыквенный пирог
+    price: 30
+    amount: 1
+  '392':
+    title: Картофель
+    price: 100
+    amount: 8
+  '364':
+    title: Стейк
+    price: 120
+    amount: 6
+  '320':
+    title: Жареная свинина
+    price: 100
+    amount: 6
+  '106':
+    title: Лоза
+    price: 80
+    amount: 4
+  '321':
+    title: Картина
+    price: 200
+    amount: 8
+  '39':
+    title: Коричневый гриб
+    price: 200
+    amount: 8
+  '40':
+    title: Красный гриб
+    price: 200
+    amount: 8
+  '116':
+    title: Стол зачарований
+    price: 200
+    amount: 1
+  '81':
+    title: Кактус
+    price: 80
+    amount: 8
+  '145':
+    title: Наковальня
+    price: 160
+    amount: 1
+  '84':
+    title: Проигрыватель
+    price: 80
+    amount: 1
+  '356':
+    title: Повторитель
+    price: 50
+    amount: 1
+  '33':
+    title: Поршень
+    price: 50
+    amount: 1
+  '331':
+    title: Повторитель
+    price: 70
+    amount: 1
+  '329':
+    title: Седло
+    price: 500
+    amount: 1
+  '138':
+    title: Маяк
+    price: 300
+    amount: 1
+  '341':
+    title: Сгусток слизи
+    price: 150
+    amount: 8
+  '384':
+    title: Пузырек опыта
+    price: 200
+    amount: 16
+  '368':
+    title: Жемчуг Эндера
+    price: 180
+    amount: 8
+  '420':
+    title: Поводок
+    price: 100
+    amount: 2
+  '374':
+    title: Пустой пузырек
+    price: 60
+    amount: 8
+  '376':
+    title: Маринованный паучий глаз
+    price: 100
+    amount: 8
+  '378':
+    title: Сгусток магмы
+    price: 150
+    amount: 8
+  '370':
+    title: Слеза гаста
+    price: 300
+    amount: 8
+  '379':
+    title: Варочная стойка
+    price: 200
+    amount: 1
+  '380':
+    title: Котел
+    price: 100
+    amount: 1
+  '382':
+    title: Сверкающий арбуз
+    price: 120
+    amount: 8
+  '372':
+    title: Адский нарост
+    price: 200
+    amount: 8
+  '369':
+    title: Стержень ифрита
+    price: 150
+    amount: 1
+  '348':
+    title: Светящаяся пыль
+    price: 100
+    amount: 32
+  '289':
+    title: Порох
+    price: 250
+    amount: 16
+  '263':
+    title: Уголь
+    price: 80
+    amount: 16
+  '264':
+    title: Алмаз
+    price: 200
+    amount: 1
+  '265':
+    title: Железный слиток
+    price: 250
+    amount: 16
+  '266':
+    title: Золотой слиток
+    price: 200
+    amount: 8
+  '388':
+    title: Изумруд
+    price: 100
+    amount: 1
+  '406':
+    title: Кварц
+    price: 70
+    amount: 16
+  '351:4':
+    title: Лазурит
+    price: 120
+    amount: 8
+  '405':
+    title: Кирпич нижнего мира
+    price: 50
+    amount: 16
+  '344':
+    title: Яйцо
+    price: 120
+    amount: 4
+  '318':
+    title: Кремень
+    price: 150
+    amount: 8
+  '334':
+    title: Кожа
+    price: 120
+    amount: 8
+  '338':
+    title: Сахарный тростник
+    price: 200
+    amount: 8
+  '296':
+    title: Пшеница
+    price: 100
+    amount: 8
+  '361':
+    title: Семена тыквы
+    price: 150
+    amount: 8
+  '362':
+    title: Семена арбуза
+    price: 150
+    amount: 8
+  '295':
+    title: Семена пшеницы
+    price: 70
+    amount: 8
+  '351:3':
+    title: Какао-бобы
+    price: 120
+    amount: 8
+  '351:15':
+    title: Костная мука
+    price: 100
+    amount: 16
+  '351':
+    title: Чернильный мешок
+    price: 80
+    amount: 4

@@ -1,0 +1,195 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aDiner
+map_folder: Diner
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.673409753271773
+    y: 65.0
+    z: 0.4501333667589278
+    pitch: 0.7499572
+    yaw: -89.849976
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -1.0
+    y: 59.0
+    z: -1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 1.0
+    y: 59.0
+    z: -1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 1.0
+    y: 59.0
+    z: 1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -1.0
+    y: 59.0
+    z: 1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -2.0
+    y: 58.0
+    z: 90.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -20.0
+    y: 58.0
+    z: 24.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 24.0
+    y: 58.0
+    z: 20.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 20.0
+    y: 58.0
+    z: -24.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -24.0
+    y: 58.0
+    z: -20.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: -90.0
+    y: 58.0
+    z: -2.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 90.0
+    y: 58.0
+    z: 2.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Diner
+    x: 2.0
+    y: 58.0
+    z: -90.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Diner
+    x: 0.4639328198039401
+    y: 106.20000004768372
+    z: 0.25283764328932834
+    pitch: 90.0
+    yaw: -177.14915
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: -78.0
+      y: 59.0
+      z: -8.0
+    color_chat: RED
+    bed_direction: 2
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: -76.3346452333815
+      y: 59.0
+      z: 0.3974317549004528
+      pitch: -0.15011767
+      yaw: -89.700226
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: 78.0
+      y: 59.0
+      z: 8.0
+    color_chat: GREEN
+    bed_direction: 0
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: 77.16390157829677
+      y: 59.0
+      z: 0.5553564329275849
+      pitch: -9.704232E-5
+      yaw: 90.74984
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: 8.0
+      y: 59.0
+      z: -78.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: 0.5600258005315623
+      y: 59.0
+      z: -76.03915793151337
+      pitch: 1.4998475
+      yaw: 0.44989014
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: -8.0
+      y: 59.0
+      z: 78.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Diner
+      x: 0.43638984966408234
+      y: 59.0
+      z: 77.2838879908056
+      pitch: 2.8498979
+      yaw: 180.15013
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

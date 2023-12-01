@@ -1,0 +1,7 @@
+speed: 0.2
+&c&l
+&6&l
+&e&l
+&a&l
+&b&l
+&d&l

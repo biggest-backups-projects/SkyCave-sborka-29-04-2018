@@ -1,0 +1,54 @@
+settings:
+    # название окна
+    title: "Телепортатор"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "menu"
+items:
+    mg:
+        item: "354"
+        title: "§eМини-Игры"
+        lore: |-  
+            §7Здесь собраны лучшие мини-игры
+            §7Заходи и убедись в этом сам
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto mgLobby"
+        closeOnClick: true
+        slot: 14
+    survival-1:
+        item: "257"
+        title: "§eСервер §3§lАльфа"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-1"
+        closeOnClick: true
+        slot: 10
+    survival-2:
+        item: "257"
+        title: "§eСервер §3§lБраво"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-2"
+        closeOnClick: true
+        slot: 12
+    survival-3:
+        item: "257"
+        title: "§eСервер §3§lЧарли"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-3"
+        closeOnClick: true
+        slot: 16
+    survival-4:
+        item: "257"
+        title: "§eСервер §3§lДельта"
+        lore: |-
+            
+            §a► Нажмите, чтобы подключиться
+        action: "command:goto survival-4"
+        closeOnClick: true
+        slot: 18

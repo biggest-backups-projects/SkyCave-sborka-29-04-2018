@@ -1,0 +1,356 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&f[&7Игрок&f] &9'
+    permissions:
+    - marry.default
+    - randomtp.tp
+    - randomtp.portal.use
+    - authme.player.*
+    - speedbans.see
+    - cases.open
+    - cases.list
+    - cases.number
+    - serversigns.use
+    - killermoney.getcash
+    - customjoinitems.*
+    - essentials.helpop
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.wand.toggle
+    - speedcraftclans.use
+    - worldedit.wand
+    - essentials.silentjoin
+    - essentials.silentquit
+    - worldedit.selection.expand
+    - signs.use.warp
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.claim
+    - worldguard.region.addmember.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.remove
+    - worldguard.region.wand
+    - worldguard.region.remove.own.*
+    - worldguard.region.info.own
+    - worldguard.region.info.member
+    - essentials.kit
+    - worldguard.region.info.own.*
+    - essentials.balance
+    - essentials.kits.start
+    - essentials.kits.bonus
+    - essentials.kits.IronMan
+    - essentials.kits.Archer
+    - essentials.kits.Witch
+    - essentials.kits.God
+    - essentials.kits.InvisibleMan
+    - essentials.kits.sword
+    - essentials.kits.bow
+    - essentials.kits.hammer
+    - essentials.pay
+    - essentials.buy
+    - essentials.tpa
+    - essentials.rules
+    - essentials.spawn
+    - essentials.home
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.ignore
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.signs.use.
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.trade
+    - essentials.signs.use.*
+    - essentials.signs.use*
+    - essentials.help
+    - essentials.warp
+    - essentials.warp.list
+    - creativegates.use
+    - chatmanager.chat.global
+    - -authme.unregister
+    - essentials.msg
+    - essentials.deletehome
+    - authme.changepassword
+    - -essentials.afk
+    - dynpad.*
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.flags.use.*
+    - -bukkit.command.*
+    - -minecraft.command.*
+    - essentials.motd
+    - chestcommands.command.open
+    - chestcommands.item.menu.yml
+    - worldguard.region.list.own
+    - chestcommands.open.*
+    - chestcommands.command.open*
+    - -chestcommands.command.open.others
+    - -essentials.info
+    - safetrade.request
+    - safetrade.accept
+    - safetrade.deny
+    - auction.limit.15
+    - jobs.use
+  donor:
+    options:
+      default: false
+      prefix: '&f[&2Донор&f] &2'
+    inheritance:
+    - default
+    permissions:
+    - essentials.back
+    - essentials.kits.donor
+    - essentials.feed
+    - essentials.heal
+    - essentials.repair
+    - essentials.repair.all
+    - essentials.sethome.multiple.donor
+    - mAssistant.welcome
+  premium:
+    options:
+      default: false
+      prefix: '&f[&dПремиум&f] &d'
+    inheritance:
+    - donor
+    permissions:
+    - essentials.fly
+    - essentials.hat
+    - essentials.near
+    - essentials.recipe
+    - essentials.workbench
+    - essentials.sethome.multiple.premium
+    - essentials.kits.premium
+    - worldguard.region.flag.flags.farewall.*
+    - worldguard.region.flag.flags.greeting.*
+  creative:
+    options:
+      default: false
+      prefix: '&f[&eКреатив&f] &e'
+    inheritance:
+    - premium
+    permissions:
+    - essentials.firework
+    - essentials.gamemode
+    - essentials.ignore
+    - essentials.sethome.multiple.creative
+    - essentials.kits.creative
+  admin:
+    options:
+      default: false
+      prefix: '&f[&cАдмин&f] &c'
+    inheritance:
+    - creative
+    permissions:
+    - essentials.balance.others
+    - mBansLocal.kick
+    - worldedit.navigation.thru.command
+    - essentials.balancetop
+    - essentials.god
+    - essentials.list
+    - essentials.sethome.multiple.admin
+    - essentials.tp
+  oper:
+    options:
+      default: false
+      prefix: '&f[&bОпер&f] &b'
+    inheritance:
+    - admin
+    permissions:
+    - OpenInv.openenderall
+    - OpenInv.openender
+    - OpenInv.openinv
+    - OpenInv.openself
+    - essentials.clearinventory
+    - essentials.clear
+    - essentials.invsee
+    - essentials.endersee.others
+    - essentials.endersee
+    - essentials.enderchest.others
+    - essentials.enderchest
+    - essentials.me
+    - worldguard.region.info.*
+    - essentials.tppos
+    - essentials.exp
+    - essentials.exp.give
+    - worldguard.region.flag.flags.chest-access.*
+    - worldguard.region.flag.flags.potion-splash.*
+    - worldguard.region.flag.flags.build.*
+    - worldguard.region.flag.flags.farewall.*
+    - worldguard.region.flag.flags.mob-spawning.*
+    - worldguard.region.flag.flags.mob-damage.*
+    - worldguard.region.flag.flags.invincible.*
+    - worldguard.region.flag.flags.enderpearl.*
+    - mAssistant.chat.colors
+    - essentials.sethome.multiple.oper
+  soper:
+    options:
+      default: false
+      prefix: '&f[&9Опер&6+&f] &9'
+    inheritance:
+    - oper
+    permissions:
+    - essentials.enchant.*
+    - essentials.enchant
+    - essentials.enchantments.*
+    - essentials.antioch
+    - essentials.fireball
+    - essentials.socialspy
+    - essentials.speed
+    - essentials.spawn.others
+    - essentials.seen
+    - essentials.whois
+    - essentials.sethome.multiple.soper
+    - mBansLocal.mute
+    - mBansLocal.unmute
+  sadmin:
+    options:
+      default: false
+      prefix: '&f[&4С&aАдмин&f] &a'
+    inheritance:
+    - soper
+    permissions:
+    - essentials.vanish
+    - essentials.top
+    - essentials.gc
+    - essentials.setwarp
+    - essentials.warp.15
+    - essentials.sethome.multiple.sadmin
+    - essentials.tp.others
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.getpos.others
+    - essentials.getpos
+    - essentials.jump
+    - speedmode.allow.switchInventories
+    - speedmode.allow.animalsUse
+    - speedmode.allow.deathDrops
+    - speedmode.allow.itemPickup
+    - speedmode.allow.itemThrow
+    - speedmode.allow.frames
+    - speedmode.allow.bypassBlockPlaceBlacklist
+    - speedmode.allow.bypassInteractBlacklistBlocks
+    - speedmode.allow.bypassCommandsBlacklist
+    - speedmode.allow.minecarts
+  lord:
+    options:
+      default: false
+      prefix: '&f[&5Лорд&f] &5'
+    inheritance:
+    - sadmin
+    permissions:
+    - worldedit.region.set
+    - worldedit.region.replace
+    - worldedit.region.walls
+    - worldedit.region.faces
+    - worldedit.generation.sphere
+    - worldedit.generation.cylinder
+    - worldedit.generation.pyramid
+    - worldedit.history.undo
+    - essentials.nick
+    - essentials.sethome.multiple.lord
+    - fawe.worldguard
+    - worldedit.history.redo
+    - worldedit.history.clear
+    - fawe.limit.lord
+  deluxe:
+    options:
+      default: false
+      prefix: '&f[&c&lДелюкс&f] &c&l'
+    inheritance:
+    - lord
+    permissions:
+    - essentials.lightning
+    - essentials.more
+    - worldedit.clipboard.copy
+    - worldedit.clipboard.paste
+    - essentials.sethome.multiple.deluxe
+    - worldedit.clipboard.rotate
+    - worldedit.schematic.list
+    - worldedit.schematic.load
+    - worldedit.schematic.save
+    - essentials.tptoggle
+    - mBansLocal.kill
+    - mBansLocal.ban
+    - essentials.burn
+    - fawe.limit.deluxe
+  legend:
+    options:
+      default: false
+      prefix: '&f[&6&lЛегенда&f] &6&l'
+    inheritance:
+    - deluxe
+    permissions:
+    - essentials.tptoggle
+    - mBansLocal.protect
+    - essentials.sethome.multiple.legend
+    - fawe.limit.legend
+  sponsor:
+    options:
+      default: false
+      prefix: '&f[&a&lСпонсор&f] &a&l'
+    inheritance:
+    - legend
+    permissions:
+    - worldedit.navigation.*
+    - worldedit.biome.*
+    - worldedit.generation.*
+    - worldedit.selection.*
+    - worldedit.analysis.*
+    - worldedit.region.*
+    - worldedit.clipboard.rotate
+    - worldedit.clipboard.flip
+    - worldedit.schematic.upload
+    - worldedit.drain
+    - worldedit.green
+    - worldedit.replacenear
+    - worldedit.removenear
+    - worldedit.removebelow
+    - worldedit.removeabove
+    - worldedit.fixwater
+    - worldedit.fixlava
+    - worldedit.fill.recursive
+    - worldedit.fill
+    - worldedit.snow
+    - worldedit.thaw
+    - essentials.sethome.multiple.sponsor
+    - fawe.limit.sponsor
+  helper:
+    options:
+      default: false
+      prefix: '&f[&7Помощник&f] &7'
+    inheritance:
+    - sponsor
+    permissions:
+    - -mAssistant.welcome
+    - mBansLocal.*
+    - -mBansLocal.setjail
+    - mAssistant.chat.spy
+    - essentials.helpop.receive
+    - essentials.vanish.see
+    - essentials.tpo
+    - mAssistant.admin
+  moder:
+    options:
+      default: false
+      prefix: '&f[&3Модер&f] &3'
+    inheritance:
+    - helper
+    permissions:
+    - mCommands.mbans.*
+  developer:
+    options:
+      default: false
+      prefix: '&f[&aРазраб&f] &a'
+    permissions:
+    - '*'
+  owner:
+    options:
+      default: false
+      prefix: '&f[&4Владелец&f] &4'
+    permissions:
+    - '*'
+schema-version: 1

@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aCastle
+map_folder: Castle
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 3.7500036
+    yaw: 269.69998
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 0.5
+    y: 117.1195892156436
+    z: 0.5
+    pitch: 5.2499967
+    yaw: -181.50012
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 92.5
+    y: 90.0
+    z: -22.5
+    pitch: -0.29999736
+    yaw: 89.69998
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 78.5
+    y: 90.0
+    z: -54.5
+    pitch: -1.6499949
+    yaw: 88.80004
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 53.5
+    y: 90.0
+    z: -77.5
+    pitch: -1.1999899
+    yaw: -0.8999748
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 20.5
+    y: 90.0
+    z: -91.5
+    pitch: -2.1000133
+    yaw: -0.30001578
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -22.5
+    y: 90.0
+    z: -91.5
+    pitch: -1.9499935
+    yaw: -0.3000167
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -54.5
+    y: 90.0
+    z: -77.5
+    pitch: -2.3999891
+    yaw: -1.4999945
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -77.5
+    y: 90.0
+    z: -53.5
+    pitch: -1.8000008
+    yaw: -90.44996
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -91.5
+    y: 90.0
+    z: -20.5
+    pitch: -0.9000047
+    yaw: 268.3502
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -91.5
+    y: 90.0
+    z: 23.5
+    pitch: -2.2499986
+    yaw: -91.04983
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -77.5
+    y: 90.0
+    z: 55.5
+    pitch: -0.89998865
+    yaw: -90.8998
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -53.5
+    y: 90.0
+    z: 78.5
+    pitch: -2.1000063
+    yaw: -181.34982
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: -20.5
+    y: 90.0
+    z: 92.5
+    pitch: -1.9500072
+    yaw: -181.34981
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 23.5
+    y: 90.0
+    z: 92.5
+    pitch: -2.2500107
+    yaw: -181.04988
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 55.5
+    y: 90.0
+    z: 77.5
+    pitch: -1.3500191
+    yaw: -181.95
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 78.5
+    y: 90.0
+    z: 54.5
+    pitch: -0.29999384
+    yaw: 90.900055
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Castle
+    x: 92.5
+    y: 90.0
+    z: 21.5
+    pitch: 0.30002552
+    yaw: 90.45003
+  time:
+    type: FIXED
+    value: 1000

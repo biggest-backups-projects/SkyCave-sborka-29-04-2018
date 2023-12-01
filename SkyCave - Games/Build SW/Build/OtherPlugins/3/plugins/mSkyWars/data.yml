@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aCave
+map_folder: Cave
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 3.7500036
+    yaw: 269.69998
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 0.5
+    y: 123.61933220474562
+    z: 0.5
+    pitch: 1.349999
+    yaw: -270.74963
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -75.5
+    y: 103.0
+    z: 15.5
+    pitch: 0.14998654
+    yaw: -103.19971
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -64.5
+    y: 103.0
+    z: 43.5
+    pitch: -1.6500095
+    yaw: -125.24974
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -42.5
+    y: 103.0
+    z: 65.5
+    pitch: 0.8999867
+    yaw: -146.6997
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -14.5
+    y: 103.0
+    z: 76.5
+    pitch: 0.59999526
+    yaw: -169.19977
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 15.5
+    y: 103.0
+    z: 76.5
+    pitch: 0.5999856
+    yaw: -191.99979
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 43.5
+    y: 103.0
+    z: 65.5
+    pitch: -1.2000021
+    yaw: -214.79964
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 65.5
+    y: 103.0
+    z: 42.5
+    pitch: 0.14999798
+    yaw: -237.59952
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 76.5
+    y: 103.0
+    z: 14.5
+    pitch: -0.60000074
+    yaw: -259.49957
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 76.5
+    y: 103.0
+    z: -15.5
+    pitch: -1.0499989
+    yaw: -281.6996
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 64.5
+    y: 103.0
+    z: -43.5
+    pitch: -0.2999953
+    yaw: -303.89963
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 42.5
+    y: 103.0
+    z: -64.5
+    pitch: -0.14999421
+    yaw: -327.1494
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: 14.5
+    y: 103.0
+    z: -75.5
+    pitch: -0.90000165
+    yaw: -349.94937
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -15.5
+    y: 103.0
+    z: -75.5
+    pitch: -0.44999933
+    yaw: -11.849304
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -43.5
+    y: 103.0
+    z: -64.5
+    pitch: -1.4999986
+    yaw: -34.94919
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -64.5
+    y: 103.0
+    z: -42.5
+    pitch: -0.44999847
+    yaw: -56.399414
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Cave
+    x: -75.5
+    y: 103.0
+    z: -14.5
+    pitch: -0.7499824
+    yaw: -79.49951
+  time:
+    type: FIXED
+    value: 1000

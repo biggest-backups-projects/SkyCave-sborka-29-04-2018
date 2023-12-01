@@ -1,0 +1,119 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aLongIsland
+map_folder: LongIsland
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.565755351646427
+    y: 65.0
+    z: 0.42879893882825604
+    pitch: 2.698799
+    yaw: -89.28488
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 6
+  max-players: 12
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 36.28706493041419
+    y: 104.74060964257723
+    z: -1.378455845456175
+    pitch: 19.500038
+    yaw: 90.45068
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: -53.5
+    y: 68.0
+    z: 25.5
+    pitch: 4.350006
+    yaw: 209.70001
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: -28.5
+    y: 67.0
+    z: 25.5
+    pitch: -2.2499933
+    yaw: -165.90005
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: -2.5
+    y: 67.0
+    z: 25.5
+    pitch: -9.9000025
+    yaw: -161.55002
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 25.5
+    y: 67.0
+    z: 25.5
+    pitch: -3.75002
+    yaw: -183.0
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 51.5
+    y: 67.0
+    z: 25.5
+    pitch: -2.700018
+    yaw: -188.40001
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 79.5
+    y: 67.0
+    z: 25.5
+    pitch: -1.2000237
+    yaw: -198.00003
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 88.5
+    y: 68.0
+    z: -24.5
+    pitch: 4.650004
+    yaw: -338.4
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 63.5
+    y: 67.0
+    z: -24.5
+    pitch: 0.75000274
+    yaw: 9.449987
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 37.5
+    y: 67.0
+    z: -24.5
+    pitch: -3.1499772
+    yaw: 5.5500054
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: 9.5
+    y: 67.0
+    z: -24.5
+    pitch: -1.6500087
+    yaw: -11.099963
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: -16.5
+    y: 67.0
+    z: -24.5
+    pitch: 3.8999968
+    yaw: -8.699966
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: LongIsland
+    x: -44.5
+    y: 67.0
+    z: -24.5
+    pitch: 3.9000044
+    yaw: -23.999952
+  time:
+    type: FIXED
+    value: 1000

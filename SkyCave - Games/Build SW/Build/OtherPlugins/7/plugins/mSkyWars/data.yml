@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aForest
+map_folder: Forest
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.227611779725915
+    y: 65.0
+    z: 0.5649172431662165
+    pitch: 3.2750897
+    yaw: -90.38505
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 3.5
+    y: 94.54857403069892
+    z: 0.5
+    pitch: 17.999973
+    yaw: -182.85
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 46.5
+    y: 69.0
+    z: 1.5
+    pitch: -1.3499991
+    yaw: -268.50012
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 39.5
+    y: 69.0
+    z: -16.5
+    pitch: -5.5500107
+    yaw: -294.00003
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 33.5
+    y: 69.0
+    z: -27.5
+    pitch: -2.8500144
+    yaw: -313.65002
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 16.5
+    y: 69.0
+    z: -36.5
+    pitch: -8.549967
+    yaw: -340.05035
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 2.5
+    y: 70.0
+    z: -42.5
+    pitch: -1.0500157
+    yaw: -1.6503338
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -13.5
+    y: 69.0
+    z: -36.5
+    pitch: 4.950017
+    yaw: -26.250322
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -25.5
+    y: 69.0
+    z: -30.5
+    pitch: 0.30001837
+    yaw: -44.850327
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -34.5
+    y: 69.0
+    z: -13.5
+    pitch: -4.0500107
+    yaw: -71.40028
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -40.5
+    y: 70.0
+    z: 0.5
+    pitch: -1.8000326
+    yaw: -89.700294
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -34.5
+    y: 69.0
+    z: 16.5
+    pitch: -2.249996
+    yaw: -112.50032
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -28.5
+    y: 69.0
+    z: 28.5
+    pitch: -4.7999697
+    yaw: -133.20036
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: -11.5
+    y: 69.0
+    z: 37.5
+    pitch: -1.9499887
+    yaw: -157.80032
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 2.5
+    y: 70.0
+    z: 43.5
+    pitch: -4.199988
+    yaw: 181.79956
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 18.5
+    y: 69.0
+    z: 37.5
+    pitch: -3.4499986
+    yaw: 158.54973
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 30.5
+    y: 69.0
+    z: 31.5
+    pitch: -2.3999898
+    yaw: 135.89973
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Forest
+    x: 39.5
+    y: 69.0
+    z: 14.5
+    pitch: -2.5499988
+    yaw: 112.49957
+  time:
+    type: FIXED
+    value: 1000

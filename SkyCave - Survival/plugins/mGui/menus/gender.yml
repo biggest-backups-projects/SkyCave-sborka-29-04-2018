@@ -1,0 +1,29 @@
+settings:
+    # название окна
+    title: "§0Выбор пола"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+items:
+    status:
+        item: "351:8"
+        title: "§bМужской"
+        lore: |-
+            
+            §7Нажмите, чтобы выбрать
+            §7мужской пол
+        action: "command:marry gender male"
+        slot: 3
+    tickets:
+        item: "351:9"
+        title: "§dЖенский"
+        lore: |-
+            
+            §7Нажмите, чтобы выбрать
+            §7женский пол
+        action: "command:marry gender female"
+        slot: 7
+    back:
+        item: "262"
+        title: "§aНазад"
+        action: "page:marry"
+        slot: 23

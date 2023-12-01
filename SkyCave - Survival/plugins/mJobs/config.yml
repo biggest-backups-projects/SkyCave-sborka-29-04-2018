@@ -1,0 +1,135 @@
+settings:
+  carrier:
+    range: 15
+    maxBoxes: 3
+    blockedCommands:
+    - egm
+    - egm
+    - gm
+    - gamemode
+    - egamemode
+    - fly
+    - efly
+    - speed
+    - espeed
+    - marry
+    - c
+    - clan
+    - tp
+    - etp
+    - tppos
+    - etppos
+    - thru
+    - top
+    - etop
+    - ah
+    - auction
+    - auc
+    - trade
+    - hat
+  woodcutter: {}
+  miner:
+    blockedCommands:
+    - egm
+    - gm
+    - gamemode
+    - egamemode
+    - more
+    - emore
+    - ah
+    - auction
+    - auc
+    - trade
+    - marry
+    - c
+    - clan
+    - hat
+    ore_time: 15
+    prices:
+    - 16 32 5
+    - 73 32 7
+    - 15 32 10
+    - 14 32 15
+    - 56 16 30
+    - 129 16 40
+data:
+  carrier:
+    routes:
+      box:
+        ==: ru.jampire.mjobs.jobs.carrier.CarrierRoute
+        reward: 50
+        name: box
+        from:
+          ==: ru.jampire.mjobs.utils.LocationInteger
+          x: 606
+          y: 72
+          z: 572
+        block: 58
+        to:
+          ==: ru.jampire.mjobs.utils.LocationInteger
+          x: 612
+          y: 79
+          z: 569
+        waypoints:
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 606.5
+          y: 71.0
+          z: 566.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 608.5
+          y: 71.0
+          z: 554.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 611.5
+          y: 71.0
+          z: 554.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 614.5
+          y: 72.5
+          z: 554.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 617.5
+          y: 74.0
+          z: 554.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 619.5
+          y: 75.0
+          z: 554.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 619.5
+          y: 77.0
+          z: 557.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 619.5
+          y: 78.0
+          z: 562.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 614.5
+          y: 78.0
+          z: 562.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 614.5
+          y: 78.0
+          z: 569.5
+        - ==: ru.jampire.mjobs.utils.LocationDouble
+          x: 612.5
+          y: 78.0
+          z: 569.5
+    regions: {}
+  woodcutter:
+    regions:
+      forest:
+        ==: ru.jampire.mjobs.jobs.woodcutter.RegionForest
+        reward: 7
+        world: world
+        z1: 523
+        y1: 70
+        z2: 541
+        cooldown: 10
+        x1: 559
+        y2: 85
+        health: 2
+        x2: 584
+  miner:
+    routes: {}
+    mines: {}

@@ -1,0 +1,80 @@
+switchInventories: true
+
+# Ограничения
+denyAnimalsUse: true # использовать животных
+denyPlayerDamage: true # ударять игроков
+denyDeathDrops: true # ронять предметы при смерти
+denyItemPickup: true # подбирать предметы
+denyItemThrow: true # ронять предметы
+denyFrames: true # фреймы
+denyMinecarts: true # вагонетки
+
+# Список блоков тут: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+blockBreakBlacklist:
+- BEDROCK
+blockPlaceBlacklist:
+- BEDROCK
+interactBlacklistBlocks: # Блоки которые нельзя открывать
+- ANVIL
+- BEACON
+- BREWING_STAND
+- BURNING_FURNACE
+- CHEST
+- DISPENSER
+- DROPPER
+- ENCHANTMENT_TABLE
+- ENDER_CHEST
+- FURNACE
+- HOPPER
+- JUKEBOX
+- MOB_SPAWNER
+- TRAPPED_CHEST
+- WORKBENCH
+interactBlacklistItems: # Предметы которые нельзя использовать
+- EGG
+- EXP_BOTTLE
+- FIREBALL
+- FLINT_AND_STEEL
+- MINECART
+- MONSTER_EGG
+- MONSTER_EGGS
+- POTION
+
+# Для некоторых команд может потребоваться вручную указать алиасы
+commandsBlacklist:
+- enderchest
+
+# Сообщения
+messages:
+  switchToCreative:
+  - "-------------------------------------------"
+  - "&7&oВы перешли в творческий режим."
+  - "&7Все ваши вещи будут восстановлены после переключения режима."
+  - "-------------------------------------------"
+  switchToSurvival:
+  - "-------------------------------------------"
+  - "&7&oВы перешли в режим выживания."
+  - "&7Все ваши вещи будут восстановлены после переключения режима."
+  switchToAdventure:
+  - "-------------------------------------------"
+  - "&7&oВы перешли в приключенческий режим."
+  - "&7Все ваши вещи будут восстановлены после переключения режима."
+  - "-------------------------------------------"
+  animalsUseDenied:
+  - "&cВы не можете использовать животных в этом режиме"
+  playerDamageDenied:
+  - "&cВы не можете бить других игроков в этом режиме"
+  itemThrowDenied:
+  - "&cВы не можете выбрасывать предметы в этом режиме"
+  framesDenied:
+  - "&cВы не можете использовать рамки в этом режиме"
+  minecartsDenied:
+  - "&cВы не можете использовать вагонетки в этом режиме"
+  blockBreakDenied:
+  - "&cВы не можете разрушить этот блок в этом режиме"
+  blockPlaceDenied:
+  - "&cВы не можете установить этот блок в этом режиме"
+  interactDenied:
+  - "&cВы не можете использовать это в этом режиме"
+  commandDenied:
+  - "&cВы не можете выполнить эту команду в этом режиме"

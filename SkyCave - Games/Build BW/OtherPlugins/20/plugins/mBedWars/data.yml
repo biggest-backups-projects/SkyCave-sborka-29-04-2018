@@ -1,0 +1,219 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aChess
+map_folder: Chess
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 12
+  max-players: 24
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -106.0
+    y: 94.0
+    z: 2.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -100.0
+    y: 94.0
+    z: -9.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -96.0
+    y: 94.0
+    z: 10.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -99.0
+    y: 96.0
+    z: 46.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -100.0
+    y: 90.0
+    z: -44.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -97.0
+    y: 90.0
+    z: -47.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -95.0
+    y: 91.0
+    z: -40.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -13.0
+    y: 105.0
+    z: -13.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -13.0
+    y: 105.0
+    z: 10.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -6.0
+    y: 99.0
+    z: -3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: -2.0
+    y: 99.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 3.0
+    y: 99.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 7.0
+    y: 99.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 13.0
+    y: 105.0
+    z: 14.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 14.0
+    y: 105.0
+    z: -9.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 96.0
+    y: 94.0
+    z: -8.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 107.0
+    y: 94.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 99.0
+    y: 94.0
+    z: 9.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 100.0
+    y: 90.0
+    z: 44.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 97.0
+    y: 91.0
+    z: 49.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 95.0
+    y: 90.0
+    z: 42.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Chess
+    x: 99.0
+    y: 96.0
+    z: -46.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Chess
+    x: 0.5
+    y: 132.53260171624845
+    z: 0.5
+    pitch: 10.35002
+    yaw: -90.750275
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Chess
+    x: 0.5
+    y: 132.53260171624845
+    z: 0.5
+    pitch: 13.649987
+    yaw: -90.15015
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Chess
+      x: 150.0
+      y: 105.0
+      z: -1.0
+    color_chat: RED
+    bed_direction: 2
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Chess
+      x: 141.53131958246158
+      y: 94.0
+      z: 0.9337148967040598
+      pitch: -3.2999847
+      yaw: 90.1503
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Chess
+      x: -150.0
+      y: 105.0
+      z: 2.0
+    color_chat: BLUE
+    bed_direction: 0
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Chess
+      x: -140.49954337332747
+      y: 94.0
+      z: 0.8129378897270931
+      pitch: -3.8999982
+      yaw: -89.69968
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 15
+      silver: 150
+      gold: 350
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

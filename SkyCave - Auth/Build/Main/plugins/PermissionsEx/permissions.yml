@@ -1,0 +1,13 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7'
+    permissions:
+    - -bukkit.command.*
+    - -minecraft.command.*
+    - mCore.hub
+    - mCore.goto
+    - mCore.tell
+    - mCore.reply
+schema-version: 1

@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aSteamPunk
+map_folder: SteamPunk
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 0.0
+    y: 53.0
+    z: 9.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: -9.0
+    y: 53.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 0.0
+    y: 53.0
+    z: -9.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 9.0
+    y: 53.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 31.0
+    y: 53.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 62.0
+    y: 54.0
+    z: 3.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: -31.0
+    y: 53.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: -62.0
+    y: 54.0
+    z: -3.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 0.0
+    y: 53.0
+    z: 31.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: -3.0
+    y: 54.0
+    z: 62.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 0.0
+    y: 53.0
+    z: -31.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SteamPunk
+    x: 3.0
+    y: 54.0
+    z: -62.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: SteamPunk
+    x: 3.5274581212618052
+    y: 90.20000004768372
+    z: -1.9990807962225636
+    pitch: 55.800034
+    yaw: -315.45068
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: -6.0
+      y: 54.0
+      z: -55.0
+    color_chat: RED
+    bed_direction: 1
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: 0.3876383970818931
+      y: 54.0
+      z: -50.23413119229955
+      pitch: 24.60003
+      yaw: -1.801239
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: 55.0
+      y: 54.0
+      z: -6.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: 51.31482262311477
+      y: 54.0
+      z: 0.4557890357667801
+      pitch: 9.750013
+      yaw: -271.35013
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: 6.0
+      y: 54.0
+      z: 55.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: 0.5760633191737565
+      y: 54.0
+      z: 51.625727787006106
+      pitch: 8.550013
+      yaw: -181.65137
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: -55.0
+      y: 54.0
+      z: 6.0
+    color_chat: YELLOW
+    bed_direction: 0
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SteamPunk
+      x: -50.61827115639505
+      y: 54.0
+      z: 0.6322022354938688
+      pitch: 8.850022
+      yaw: -97.50018
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

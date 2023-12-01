@@ -1,0 +1,23 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#Colors
+Основные команды:
+
+&4/help &0- Помощь
+&4/rules &0 - Правила
+&4/donate &0- Донат
+&4/menu - &0- Меню
+&4/clan &0- Кланы
+&4/help region &0- Приват
+==================
+&0Сайт:
+&4speedcraft.su
+==================
+&0ВКонтакте:
+&4vk.com/speedcraft_off

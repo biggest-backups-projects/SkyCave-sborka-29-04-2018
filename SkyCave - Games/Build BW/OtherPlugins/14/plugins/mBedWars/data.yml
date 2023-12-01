@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aSkyCloud
+map_folder: SkyCloud
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 2.0
+    y: 58.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -2.0
+    y: 58.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -2.0
+    y: 58.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 2.0
+    y: 58.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -15.0
+    y: 62.0
+    z: 89.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 8.0
+    y: 61.0
+    z: 75.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -89.0
+    y: 62.0
+    z: -15.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -75.0
+    y: 61.0
+    z: 8.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 15.0
+    y: 62.0
+    z: -89.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: -8.0
+    y: 61.0
+    z: -75.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 89.0
+    y: 62.0
+    z: 15.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: SkyCloud
+    x: 75.0
+    y: 61.0
+    z: -8.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: SkyCloud
+    x: 2.7774014098538435
+    y: 113.20000004768372
+    z: 3.2320363876699445
+    pitch: 62.426113
+    yaw: -225.17438
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: 90.0
+      y: 62.0
+      z: 1.0
+    color_chat: RED
+    bed_direction: 3
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: 78.19465175607985
+      y: 60.5
+      z: 1.4593122408672183
+      pitch: -5.09993
+      yaw: -265.4995
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: 1.0
+      y: 62.0
+      z: -90.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: 2.626895346686628
+      y: 60.0
+      z: -75.82239287756168
+      pitch: 13.650054
+      yaw: -3.2998223
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: -1.0
+      y: 62.0
+      z: 90.0
+    color_chat: BLUE
+    bed_direction: 0
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: -1.000717483960188
+      y: 60.0
+      z: 77.37051940604586
+      pitch: -0.4500191
+      yaw: 177.29996
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: -90.0
+      y: 62.0
+      z: -1.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: SkyCloud
+      x: -76.23614417094336
+      y: 60.0
+      z: -1.3385887447287446
+      pitch: -1.6500065
+      yaw: 265.79987
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

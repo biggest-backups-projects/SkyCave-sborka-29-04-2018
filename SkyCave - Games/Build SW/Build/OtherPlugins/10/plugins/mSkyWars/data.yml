@@ -1,0 +1,119 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aOnionring
+map_folder: Onionring
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.431167237218844
+    y: 65.0
+    z: 0.35743946468183296
+    pitch: 2.6987936
+    yaw: 270.14478
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 6
+  max-players: 12
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 2.7741591542056088
+    y: 97.38506555061306
+    z: 6.126329242887946
+    pitch: 18.300135
+    yaw: -179.2493
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 33.5
+    y: 73.0
+    z: -18.5
+    pitch: -2.849982
+    yaw: -300.60016
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 19.5
+    y: 73.0
+    z: -32.5
+    pitch: 0.1500061
+    yaw: -332.40015
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 1.5
+    y: 73.0
+    z: -37.5
+    pitch: -2.250009
+    yaw: -357.75012
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: -16.5
+    y: 73.0
+    z: -32.5
+    pitch: 0.60000104
+    yaw: -29.999914
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: -30.5
+    y: 73.0
+    z: -18.5
+    pitch: -0.6000002
+    yaw: -65.69991
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: -34.5
+    y: 73.0
+    z: -0.5
+    pitch: -1.2000045
+    yaw: -88.04995
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: -30.5
+    y: 73.0
+    z: 17.5
+    pitch: -0.1499801
+    yaw: -120.74995
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: -16.5
+    y: 73.0
+    z: 31.5
+    pitch: -2.4000075
+    yaw: -160.34993
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 1.5
+    y: 73.0
+    z: 35.5
+    pitch: -0.90000814
+    yaw: -180.44994
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 19.5
+    y: 73.0
+    z: 31.5
+    pitch: -2.2499988
+    yaw: -209.39993
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 33.5
+    y: 73.0
+    z: 17.5
+    pitch: -1.9499828
+    yaw: -245.54996
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Onionring
+    x: 37.5
+    y: 73.0
+    z: -0.5
+    pitch: -2.700017
+    yaw: -269.24982
+  time:
+    type: FIXED
+    value: 1000

@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aCubeWorld
+map_folder: CubeWorld
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 6.0
+    y: 64.0
+    z: -52.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 23.0
+    y: 62.0
+    z: -46.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 51.0
+    y: 64.0
+    z: 6.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 45.0
+    y: 62.0
+    z: 23.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -7.0
+    y: 64.0
+    z: 51.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -24.0
+    y: 62.0
+    z: 45.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -52.0
+    y: 64.0
+    z: -7.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -46.0
+    y: 62.0
+    z: -24.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 1.0
+    y: 59.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: 1.0
+    y: 59.0
+    z: -1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -2.0
+    y: 59.0
+    z: -1.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: CubeWorld
+    x: -2.0
+    y: 59.0
+    z: 2.0
+    type: GOLD
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: CubeWorld
+    x: 0.15570001156573549
+    y: 85.77882231187738
+    z: 1.1924885106339072
+    pitch: 8.54996
+    yaw: -178.49811
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: 58.0
+      y: 66.0
+      z: -7.0
+    color_chat: RED
+    bed_direction: 3
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: 56.5
+      y: 66.0
+      z: 2.5
+      pitch: -2.0999982
+      yaw: -270.1485
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: -59.0
+      y: 66.0
+      z: 6.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: -56.5
+      y: 66.0
+      z: -2.5
+      pitch: -2.3999753
+      yaw: -90.89805
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: -7.0
+      y: 66.0
+      z: -59.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: 2.5
+      y: 66.0
+      z: -56.5
+      pitch: -1.8000066
+      yaw: -359.5488
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: 6.0
+      y: 66.0
+      z: 58.0
+    color_chat: YELLOW
+    bed_direction: 0
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: CubeWorld
+      x: -2.5
+      y: 66.0
+      z: 56.5
+      pitch: -2.5500197
+      yaw: -178.49785
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

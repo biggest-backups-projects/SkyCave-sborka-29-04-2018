@@ -1,0 +1,237 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+mongo:
+  host: 54.36.126.45
+  port: 27017
+  db: "admin"
+  login: "root"
+  password: "uH9z2gNi0gSAQlv2309D6OFjAU0bcpiyWNT94zrM6OsuhGz6"
+core:
+    host: "54.36.126.45"
+    port: 5555
+    password: "QxyKH$#of9oXL1~E"
+proxy:
+    motd:
+        - "§6.§c•§6•§3§lＳｐｅｅｄ§6§lＣｒａｆｔ§6•§c•§6. §8| §fБесплатный кейс - §b/freecase §8| §d§l1.8-1.12+       §6➣ §fТОП донат §8§l[§c§lКонсоль§8§l] §a§l+ /OP §fвсего за §e79 руб. §4§l⚠"
+    tab:
+        header: |-
+            §f
+            §4§l§o« §c§l§o« §3§lSpeed§6§lCraft§f§l.su §4§l§o» §c§l§o»
+           
+            §8§m                                               §r
+            §fСкидки §c§n80%§r на весь донат!
+            §fВозможности доната§8: §c/donate
+            §8§m                                               §r
+            §f
+        footer: |-
+            §f
+            §8§m                                               §r
+            §a(Консоль) + /OP + FTP §fвсего за §e79 руб.
+            §fПокупать на сайте - §6speedcraft.su
+            §8§m                                               §r
+    hubs:
+        main: mLobby
+        groups:
+            "limbo":
+                regex: 'limbo-\d*'
+            "survival-1":
+                regex: 'survival-1'
+                target: 'limbo'
+            "survival-2":
+                regex: 'survival-2'
+                target: 'limbo'
+            "mLobby":
+                regex: 'mLobby-\d*'
+                target: 'limbo'
+            "mgLobby":
+                regex: 'mgLobby-\d*'
+                target: 'limbo'
+            "BW":
+                regex: 'BW-\d*'
+                target: 'mgLobby'
+            "SW":
+                regex: 'SW-\d*'
+                target: 'mgLobby'
+            "BB":
+                regex: 'BB-\d*'
+                target: 'mgLobby'
+autoMessage:
+    grouping:
+        SW:
+            time: 45
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        BB:
+            time: 45
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        BW:
+            time: 45
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        survival-1:
+            time: 45
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        survival-2:
+            time: 45
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        mLobby:
+            time: 30
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+        mgLobby:
+            time: 30
+            list:
+                - sponsor1
+                - vk
+                - donate
+                - surcharge
+                - case1
+                - buy
+                - sponsor2
+                - sponsor3
+                - case2
+                - sponsor4
+                - iphone
+                - case3
+                - don
+    messages:
+        sponsor1: |
+            §c↱ §fХотите иметь §cвсе §fкоманды сервера и §cОП?
+            §a→ §fДонат §f[§a§lСпонсор§f] за §a79 §aрублей может все!
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        vk: |
+            §c↱ §fВступайте в нашу группу §9ВКонтакте
+            §a→ §fи вы будете всегда в курсе всех событий
+            §e↳ §fПереходите по ссылке - §bvk.com/speedcraft_off
+        donate: |
+            §c↱ §fНа сервере есть множество §bбонусов
+            §a→ §fдоступ к которым имеют только донатеры
+            §e↳ §fИнформация по донату - §e/donate
+        surcharge: |
+            §c↱ §fНа сайте §dspeedcraft.su §fработает доплата
+            §a→ §fЕсли вы уже донатер и хотите более высокий ранг
+            §e↳ §fтогда вы обязательно должны перейти на сайт выше
+        case1: |
+            §c↱ §fСчитаешь, что удача на твоей стороне?
+            §a→ §fКупи §e/case §fи проверь это
+            §e↳ §fОнлайн магазин - §bspeedcraft.su
+        buy: |-
+            §a→ §fПокупка доната на сайте - §e§lspeedcraft.su
+        sponsor2: |
+            §c↱ §fМечтал быть самым крутым среди других?
+            §a→ §fПокупка §f[§a§lСпонсор§f] §fпоможет тебе в этом
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        sponsor3: |
+            §c↱ §fТолько на этой неделе §aсупер скидки §a§l80%
+            §a→ §fУспей купить §f[§a§lСпонсор§f] §fвсего за §a79 §c§m3000§f рублей
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        case2: |
+            §c↱ §fТолько §e§nсегодня§f мы §eувеличили §fшансы к кейсам
+            §a→ §fКупи кейс и ты §aвсегда §fокупишь свои вложения
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        sponsor4: |
+            §c↱ §fХочешь §eсохранить §fсвою постройку после вайпа?
+            §a→ §fДонат §f[§a§lСпонсор§f] §fможет это делать
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        iphone: |
+            §c↱ §fХочешь выйграть §a§lIphone X?
+            §a→ §fКупи §eлюбой §fдонат и ты 
+            §a→ §fавтоматически станешь участником
+            §e*   
+            §e↳ §fПокупка доната на сайте - §bspeedcraft.su
+        case3: |
+            §c↱ §aВНИМАНИЕ! §fна сервер активирован §eзолотой час
+            §a→ §cШанс §fна выпадение [§a§lСпонсор§f] с кейса §cувеличен в два раза
+            §e↳ §fПокупка кейсов и доната на сайте - §bspeedcraft.su
+        don: |
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)
+            §4⚠ §fТОП донат §a(Консоль) §f+ §a/OP §fи §a100% команд §fтолько сегодня за §c§m999§e§l 79 руб.
+            §f  Покупка на сайте: §6§lspeedcraft.su §7(FTP, SSH,* в PEX и 100% команд)

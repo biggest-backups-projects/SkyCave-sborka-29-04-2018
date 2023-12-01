@@ -1,0 +1,194 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aDragons
+map_folder: Dragons
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 16
+  max-players: 32
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -2.0
+    y: 62.0
+    z: 3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 4.0
+    y: 61.0
+    z: 4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 0.0
+    y: 59.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -4.0
+    y: 63.0
+    z: -4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 3.0
+    y: 62.0
+    z: -3.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 110.0
+    y: 62.0
+    z: -5.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 109.0
+    y: 62.0
+    z: 4.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -109.0
+    y: 62.0
+    z: -4.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -110.0
+    y: 62.0
+    z: 5.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -4.0
+    y: 62.0
+    z: 109.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 5.0
+    y: 62.0
+    z: 110.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: 4.0
+    y: 62.0
+    z: -109.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Dragons
+    x: -5.0
+    y: 62.0
+    z: -110.0
+    type: SILVER
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Dragons
+    x: 1.611563819415421
+    y: 132.20000004768372
+    z: 0.39265270120667856
+    pitch: 90.0
+    yaw: -2.7001314
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 0.0
+      y: 63.0
+      z: 125.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 0.44064985849856575
+      y: 63.0
+      z: 107.6359198679959
+      pitch: 1.199992
+      yaw: -179.10004
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 0.0
+      y: 63.0
+      z: -125.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 0.5037553434476775
+      y: 63.0
+      z: -109.37454347692753
+      pitch: -0.45000505
+      yaw: -3.1500528
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 125.0
+      y: 63.0
+      z: 0.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: 109.93894911995909
+      y: 63.0
+      z: 0.4121184844006113
+      pitch: -9.900002
+      yaw: -271.65015
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: -125.0
+      y: 63.0
+      z: 0.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Dragons
+      x: -108.25596045665023
+      y: 63.0
+      z: 1.415546251466596
+      pitch: -3.7499936
+      yaw: -90.900085
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 60
+      silver: 300
+      gold: 1000
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

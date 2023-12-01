@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aMine
+map_folder: Mine
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 2.0
+    y: 56.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 0.0
+    y: 56.0
+    z: -2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: -2.0
+    y: 56.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 0.0
+    y: 56.0
+    z: 2.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 1.0
+    y: 46.0
+    z: 63.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: -5.0
+    y: 55.0
+    z: 66.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 61.0
+    y: 55.0
+    z: 5.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 58.0
+    y: 46.0
+    z: -1.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: -1.0
+    y: 46.0
+    z: -63.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: 5.0
+    y: 55.0
+    z: -66.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: -66.0
+    y: 55.0
+    z: -5.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: Mine
+    x: -63.0
+    y: 46.0
+    z: 1.0
+    type: SILVER
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: Mine
+    x: 1.784345690505564
+    y: 90.20000004768372
+    z: 0.09799719470560696
+    pitch: 85.35007
+    yaw: -267.1496
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: -67.0
+      y: 57.0
+      z: 0.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: -58.77865313005526
+      y: 54.0
+      z: 0.14346105069978765
+      pitch: -5.2499294
+      yaw: -92.84929
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 0.0
+      y: 57.0
+      z: -67.0
+    color_chat: GREEN
+    bed_direction: 1
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 0.9470783424378264
+      y: 54.0
+      z: -59.3798899168899
+      pitch: 4.2000628
+      yaw: 2.2504578
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 62.0
+      y: 57.0
+      z: 0.0
+    color_chat: BLUE
+    bed_direction: 2
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 54.33357802560533
+      y: 54.0
+      z: 0.9064057013714738
+      pitch: 5.250093
+      yaw: 88.80037
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 0.0
+      y: 57.0
+      z: 67.0
+    color_chat: YELLOW
+    bed_direction: 3
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: Mine
+      x: 0.11471780319207077
+      y: 54.0
+      z: 60.04766975859095
+      pitch: 4.5000796
+      yaw: 176.55025
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

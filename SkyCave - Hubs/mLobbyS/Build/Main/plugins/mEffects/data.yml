@@ -1,0 +1,83 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+regions:
+  surv-2:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 0
+      y: 49
+      z: -29
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 4
+      y: 53
+      z: -29
+    name: surv-2
+    particle: witchMagic
+  surv-1:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: -10
+      y: 49
+      z: -29
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: -6
+      y: 53
+      z: -29
+    name: surv-1
+    particle: witchMagic
+  mg:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: -20
+      y: 48
+      z: -2
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: -20
+      y: 53
+      z: 2
+    name: mg
+    particle: witchMagic
+  surv-4:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 20
+      y: 49
+      z: -29
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 24
+      y: 53
+      z: -29
+    name: surv-4
+    particle: witchMagic
+  surv-3:
+    ==: ru.jampire.meffects.EffectRegion
+    p1:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 10
+      y: 49
+      z: -29
+    p2:
+      ==: ru.jampire.meffects.EffectRegionPoint
+      world: lobby
+      x: 14
+      y: 53
+      z: -29
+    name: surv-3
+    particle: witchMagic

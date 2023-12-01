@@ -1,0 +1,441 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aFallons
+map_folder: Fallons
+lobby:
+  spawns:
+  - ==: ru.jampire.mbuildbattle.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: -0.29999733
+    yaw: -90.15001
+  time:
+    type: DEFAULT
+    value: 0
+arena:
+  lobby_countdown: 120
+  min-players: 6
+  max-players: 12
+  plots:
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 205
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 231
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.3900812564084
+      y: 13.747281101575291
+      z: 217.31080654643443
+      pitch: 0.5999933
+      yaw: -0.29968262
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 205
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 231
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 754.1569562480786
+      y: 13.540552383413912
+      z: 219.7192316697542
+      pitch: 2.849993
+      yaw: -1.1997695
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 241
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 267
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 753.9448258690559
+      y: 15.740467753568392
+      z: 254.44503314863098
+      pitch: 4.9499884
+      yaw: -1.6498718
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 241
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 267
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.5194756249249
+      y: 13.996552379515206
+      z: 254.44127551255113
+      pitch: 4.6499977
+      yaw: -0.5998449
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 277
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 303
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 754.7464508120272
+      y: 13.96966810698714
+      z: 291.96194452892274
+      pitch: 3.8999815
+      yaw: 0.74983275
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 277
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 303
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.3625378214176
+      y: 14.268764182878204
+      z: 291.2532416533249
+      pitch: 4.7999988
+      yaw: -0.45018482
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 313
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 339
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 754.7024823609731
+      y: 13.671017582167824
+      z: 328.7954918102365
+      pitch: 3.8999767
+      yaw: -1.6679466E-4
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 313
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 339
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.2353283477734
+      y: 13.483310847051056
+      z: 328.92277995410006
+      pitch: 2.549985
+      yaw: -0.3001712
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 349
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 375
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 754.0584859417265
+      y: 13.953816929739245
+      z: 363.0526516901397
+      pitch: 3.9000263
+      yaw: -1.3501494
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 349
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 375
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.7739805374036
+      y: 13.84728871528521
+      z: 363.5770580631017
+      pitch: 3.1500332
+      yaw: -1.4259518E-4
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 741
+      y: 4
+      z: 385
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 767
+      y: 29
+      z: 411
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 754.7752038567693
+      y: 13.66391128010247
+      z: 398.9386030781847
+      pitch: 3.6000671
+      yaw: 0.5998905
+  - ==: ru.jampire.mbuildbattle.core.Plot
+    p1:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 705
+      y: 4
+      z: 385
+    p2:
+      ==: ru.jampire.mbuildbattle.core.PlotPoint
+      world: Fallons
+      x: 731
+      y: 29
+      z: 411
+    spawn:
+      ==: ru.jampire.mbuildbattle.core.SpawnPoint
+      world: Fallons
+      x: 718.0750876295203
+      y: 14.229768760444447
+      z: 398.5102214385534
+      pitch: 4.200065
+      yaw: -1.800046
+  themes:
+    'Арбуз': 360
+    'Верблюд': 360
+    'Гусли': 360
+    'Зрачок': 360
+    'Камень': 360
+    'Капюшон': 360
+    'Комар': 360
+    'Оса': 360
+    'Пчела': 360
+    'Костюм': 360
+    'Крепость': 360
+    'Крыша': 360
+    'Крыса': 360
+    'Ландыш': 360
+    'Ледник': 360
+    'Корабль': 360
+    'Лежак': 360
+    'Леопард': 360
+    'Парковка': 360
+    'Лучник': 360
+    'Люстра': 360
+    'Мешок': 360
+    'Нектар': 360
+    'Нефть': 360
+    'Обруч': 360
+    'Портфель': 360
+    'Редиска': 360
+    'Рубашка': 360
+    'Рыбак': 360
+    'Рынок': 360
+    'Танк': 360
+    'Тигр': 360
+    'Циркуль': 360
+    'Ручка': 360
+    'Карандаш': 360
+    'Ягода': 360
+    'Фабрика': 360
+    'Фломастер': 360
+    'Фотоаппарат': 360
+    'Фигура': 360
+    'Фея': 360
+    'Фрикаделька': 360
+    'АК-47': 360
+    'Чупакабра': 360
+    'Кошка': 360
+    'Флаг': 360
+    'Арфа': 360
+    'Аптека': 360
+    'Мяч': 360
+    'Монстр': 360
+    'Спрут': 360
+    'Крипер': 360
+    'Зомби': 360
+    'Бабочка': 360
+    'Кабачок': 360
+    'Тыква': 360
+    'Скелет': 360
+    'Вампир': 360
+    'Кровать': 360
+    'Вагон': 360
+    'Лодка': 360
+    'Вода': 360
+    'Лава': 360
+    'Вагонетка': 360
+    'Мотор': 360
+    'Бревно': 360
+    'Ваза': 360
+    'Еда': 360
+    'Тарелка': 360
+    'Вилка': 360
+    'Ёлка': 360
+    'Бассейн': 360
+    'Аэропорт': 360
+    'Смайлик': 360
+    'Пони': 360
+    'Бегемот': 360
+    'Часы': 360
+    'Кофе': 360
+    'Ключ': 360
+    'Диск': 360
+    'Кепка': 360
+    'Шашки': 360
+    'Вертолет': 360
+    'Танк': 360
+    'НЛО': 360
+    'Слендер': 360
+    'Дерево': 360
+    'Футбольное поле': 360
+    'Газовая плита': 360
+    'Свинья': 360
+    'Батарейки': 360
+    'Пианино': 360
+    'Скрипка': 360
+    'Вулкан': 360
+    'Водопад': 360
+    'Робот': 360
+    'Автомобиль': 360
+    'Самолет': 360
+    'Танк': 360
+    'НЛО': 360
+    'Лук': 360
+    'Кот': 360
+    'Компьютер': 360
+    'Корабль': 360
+    'Трофей': 360
+    'Череп': 360
+    'Книга': 360
+    'Ручка': 360
+    'Свободная тема': 180
+    'Свободная тема': 360
+    'Свободная тема': 540
+    'Лодка': 360
+    'Миньон': 360
+    'Замок': 360
+    'Слон': 360
+    'Радуга': 360
+    'Оружие': 360
+    'Пакман': 360
+    'Пиратский корабль': 360
+    'Шляпа': 360
+    'Рыцарь': 360
+    'Статуя': 360
+    'Соник': 360
+    'Торт': 360
+    'Диван': 360
+    'Ракета': 360
+    'Шкаф': 360
+    'Coca-Cola': 360
+    'Меч': 360
+    'Щит': 360
+    'Телевизор': 360
+    'Малина': 360
+    'Телефон': 360
+    'Груша': 360
+    'Фрукты': 360
+    'Овощи': 360
+    'Единорог': 360
+    'Храм': 360
+    'Маяк': 360
+    'Молоток': 360
+    'Колонка': 360
+    'Апельсин': 360
+    'Сердце': 360
+    'Динамит': 360
+    'Бассейн': 360
+    'Очки': 360
+    'Хлеб': 360
+    'Мышь': 360
+    'Дом лесника': 360
+    'Остров': 360
+    'Футбольный мяч': 360
+    'Факел': 360
+    'Змея': 360
+    'Подарок': 360
+    'Стул': 360
+    'Стол': 360
+    'Мороженое': 360
+    'Верстак': 360
+    'Пришелец': 360
+    'Губка боб': 360
+    'Гора': 360
+    'Светильник': 360
+    'Кружка': 360
+    'Зомби': 360
+    'Обувь': 360
+    'Мяч': 360
+    'Кирка': 360

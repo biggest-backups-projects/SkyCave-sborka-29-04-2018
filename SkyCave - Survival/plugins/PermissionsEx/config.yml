@@ -1,0 +1,26 @@
+permissions:
+  backend: sql
+  backends:
+    sql:
+      uri: mysql://193.70.81.109/db1?useUnicode=true&characterEncoding=UTF-8
+      user: db1
+      password: Hb4OgnileufZExMz4779FRy1K0Nru4VZ
+      deploy: export.sql
+      type: sql
+      aliases:
+        permissions: permissions_survival
+        permissions_inheritance: permissions_inheritance
+        permissions_entity: permissions_entity
+  superperms: {}
+  debug: false
+  allowOps: false
+  user-add-groups-last: false
+  log-players: false
+  createUserRecords: false
+  informplayers:
+    changes: false
+  basedir: plugins/PermissionsEx
+multiserver:
+  use-netevents: true
+updater: false
+alwaysUpdate: false

@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aMilitary
+map_folder: Military
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 3.7500036
+    yaw: 269.69998
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 0.5
+    y: 147.98828655548087
+    z: 0.5
+    pitch: 8.550016
+    yaw: -90.29911
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -24.5
+    y: 101.0
+    z: -89.5
+    pitch: 0.45001993
+    yaw: -359.70004
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -53.5
+    y: 101.0
+    z: -76.5
+    pitch: -0.45001677
+    yaw: -358.80002
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -77.5
+    y: 101.0
+    z: -50.5
+    pitch: -0.3000103
+    yaw: -91.05023
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -90.5
+    y: 101.0
+    z: -21.5
+    pitch: -1.2000163
+    yaw: -90.60037
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -89.5
+    y: 101.0
+    z: 24.5
+    pitch: 1.0499913
+    yaw: -90.30043
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -76.5
+    y: 101.0
+    z: 53.5
+    pitch: 0.4500098
+    yaw: -91.350426
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -49.5
+    y: 101.0
+    z: 78.5
+    pitch: 0.4499999
+    yaw: -181.65042
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: -20.5
+    y: 101.0
+    z: 91.5
+    pitch: 0.7499975
+    yaw: -180.60042
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 25.5
+    y: 101.0
+    z: 90.5
+    pitch: 1.3499895
+    yaw: -180.4504
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 54.5
+    y: 101.0
+    z: 77.5
+    pitch: -0.44998503
+    yaw: -181.35039
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 78.5
+    y: 101.0
+    z: 51.5
+    pitch: 0.15002117
+    yaw: -269.7006
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 91.5
+    y: 101.0
+    z: 22.5
+    pitch: -1.1999986
+    yaw: -270.90057
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 90.5
+    y: 101.0
+    z: -23.5
+    pitch: -1.1999925
+    yaw: -269.85052
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 77.5
+    y: 101.0
+    z: -52.5
+    pitch: -0.29998899
+    yaw: -270.00043
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 50.5
+    y: 101.0
+    z: -77.5
+    pitch: -0.5999783
+    yaw: -0.9003296
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Military
+    x: 21.5
+    y: 101.0
+    z: -90.5
+    pitch: -0.44998276
+    yaw: -0.6001587
+  time:
+    type: FIXED
+    value: 1000

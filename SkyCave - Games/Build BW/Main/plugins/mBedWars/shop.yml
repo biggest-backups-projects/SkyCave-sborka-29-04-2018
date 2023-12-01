@@ -1,0 +1,384 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+#
+# main - главная страница магазина
+#
+# Пример объявления предмета:
+#   первым идет цифровой или буквенный айди предмета, после него через пробелы используются специальные переменные
+#       d:0 - дата предмета (целое число)
+#       a:1 - количество предмета (целое число)
+#       n:название - название предмета, для разделения используется _
+#       l:строка_1|строка_2|строка_3 - описание предмета, для разделения используется _, для разделения строк используются |
+#       e:damage_all;1 - зачарования для предмета. для разделения используется _, для разделения эффектов используется ;
+#       p:invisibility;30;1 - эффекты зелий, время в секундах, для разделения используется _, для разделения эффектов используется ;
+#
+# Примеры:
+# STAINED_GLASS_PANE d:15 - панель черного цвета
+# STAINED_GLASS_PANE d:15 a:10 - десять панелей черного цвета
+# STAINED_GLASS_PANE d:15 a:10 n:1_2_3 - десять панелей черного цвета с названием "1 2 3"
+#
+#
+# Пример action:
+#   buy
+#       покупка предметов. позволяет покупать предметы. имеет следующие аргументы
+#           i:x - объявляет продаваемый предмет. в качестве значения используется ID объявленного предмета
+#           c:x - определяет требуемое количество ресурсов (если блок отсутствует - вещь продается бесплатно)
+#   open
+#       при клике открывает другую страницу магазина, объявленную в данном файле как отдельный объект раздела shops
+#       название открываемого магазина указывается через пробел
+#   buyResourcesForCoins
+#       покупка ресурсов за монеты во время игры
+#           r:x - объявляет количество покупаемых ресурсов
+#           c:x - объявляет количество необходимых монет для покупки
+#
+shops:
+    blocks:
+        title: "Блоки"
+        slots: 18
+        contents:
+            0:
+                item: 12
+                action: "buy i:12 c:20"
+            1:
+                item: 13
+                action: "buy i:13 c:35"
+            2:
+                item: 14
+                action: "buy i:14 c:50"
+            3:
+                item: 15
+                action: "buy i:15 c:16"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    armor:
+        title: "Броня"
+        slots: 18
+        contents:
+            0:
+                item: 16
+                action: "buy i:16 c:5"
+            1:
+                item: 17
+                action: "buy i:17 c:5"
+            2:
+                item: 18
+                action: "buy i:18 c:5"
+            3:
+                item: 19
+                action: "buy i:19 c:50"
+            4:
+                item: 20
+                action: "buy i:20 c:150"
+            5:
+                item: 21
+                action: "buy i:21 c:300"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    pickaxes:
+        title: "Кирки"
+        slots: 18
+        contents:
+            0:
+                item: 22
+                action: "buy i:22 c:25"
+            1:
+                item: 23
+                action: "buy i:23 c:50"
+            2:
+                item: 24
+                action: "buy i:24 c:100"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    swords:
+        title: "Мечи"
+        slots: 18
+        contents:
+            0:
+                item: 25
+                action: "buy i:25 c:15"
+            1:
+                item: 26
+                action: "buy i:26 c:25"
+            2:
+                item: 27
+                action: "buy i:27 c:50"
+            3:
+                item: 28
+                action: "buy i:28 c:150"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    bows:
+        title: "Луки"
+        slots: 18
+        contents:
+            0:
+                item: 29
+                action: "buy i:29 c:150"
+            1:
+                item: 30
+                action: "buy i:30 c:250"
+            2:
+                item: 31
+                action: "buy i:31 c:450"
+            3:
+                item: 32
+                action: "buy i:32 c:50"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    food:
+        title: "Еда"
+        slots: 18
+        contents:
+            0:
+                item: 33
+                action: "buy i:33 c:2"
+            1:
+                item: 34
+                action: "buy i:34 c:2"
+            2:
+                item: 35
+                action: "buy i:35 c:2"
+            3:
+                item: 36
+                action: "buy i:36 c:60"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    chests:
+        title: "Сундуки"
+        slots: 18
+        contents:
+            0:
+                item: 10
+                action: "buy i:10 c:75"
+            1:
+                item: 11
+                action: "buy i:11 c:250"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    potions:
+        title: "Зелья"
+        slots: 18
+        contents:
+            0:
+                item: 39
+                action: "buy i:39 c:150"
+            1:
+                item: 40
+                action: "buy i:40 c:150"
+            2:
+                item: 41
+                action: "buy i:41 c:500"
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    etc:
+        title: "Разное"
+        slots: 18
+        contents:
+            0:
+                item: 45
+                action: "buy i:45 c:400"
+            1:
+                item: 51
+                action: "buy i:51 c:350"
+            2:
+                item: 52
+                action: "buy i:52 c:850" 
+            3:
+                item: 53
+                action: "buy i:53 c:450" 
+            4:
+                item: 54
+                action: "buy i:54 c:250" 
+            5:
+                item: 55
+                action: "buy i:55 c:500" 
+            6:
+                item: 56
+                action: "buy i:56 c:650" 
+            7:
+                item: 58
+                action: "buy i:58 c:50 s:0" 
+            8:
+                item: 46
+                action: "open resources_shop"
+            13:
+                item: 57
+                action: "open main"
+    resources_shop:
+        title: "Купить ресурсы за монеты"
+        slots: 18
+        contents:
+            0:
+                item: 47
+                action: "buyResourcesForCoins c:10 r:50"
+            1:
+                item: 48
+                action: "buyResourcesForCoins c:20 r:100"
+            2:
+                item: 49
+                action: "buyResourcesForCoins c:40 r:200"
+            3:
+                item: 50
+                action: "buyResourcesForCoins c:100 r:500"
+            13:
+                item: 57
+                action: "open main"
+    main:
+        title: "Магазин"
+        slots: 27
+        contents:
+            0:
+                item: 0
+            1:
+                item: 0
+            2:
+                item: 0
+            3:
+                item: 0
+            4:
+                item: 0
+            5:
+                item: 0
+            6:
+                item: 0
+            7:
+                item: 0
+            8:
+                item: 0
+            9:
+                item: 1
+                action: "open blocks"
+            10:
+                item: 2
+                action: "open armor"
+            11:
+                item: 3
+                action: "open pickaxes"
+            12:
+                item: 4
+                action: "open swords"
+            13:
+                item: 5
+                action: "open bows"
+            14:
+                item: 6
+                action: "open food"
+            15:
+                item: 7
+                action: "open chests"
+            16:
+                item: 8
+                action: "open potions"
+            17:
+                item: 9
+                action: "open etc"
+            18:
+                item: 0
+            19:
+                item: 0
+            20:
+                item: 0
+            21:
+                item: 0
+            22:
+                item: 0
+            23:
+                item: 0
+            24:
+                item: 0
+            25:
+                item: 0
+            26:
+                item: 0
+items:
+    0: "STAINED_GLASS_PANE d:15 n:_"
+    1: "SANDSTONE n:Блоки"
+    2: "CHAINMAIL_CHESTPLATE n:Броня"
+    3: "STONE_PICKAXE n:Кирки"
+    4: "GOLD_SWORD n:Мечи"
+    5: "BOW n:Луки"
+    6: "APPLE n:Еда"
+    7: "CHEST n:Сундуки"
+    8: "POTION n:Зелья"
+    9: "TNT n:Разное"
+    10: "54"
+    11: "130"
+    12: "24 a:32"
+    13: "24 a:64"
+    14: "121 a:12"
+    15: "20 a:4"
+    16: "298 e:PROTECTION_ENVIRONMENTAL;1|durability;1"
+    17: "300 e:PROTECTION_ENVIRONMENTAL;1|durability;1"
+    18: "301 e:PROTECTION_ENVIRONMENTAL;1|durability;1"
+    19: "303 e:PROTECTION_ENVIRONMENTAL;1"
+    20: "303 e:PROTECTION_ENVIRONMENTAL;2|protection_projectile;1"
+    21: "303 e:PROTECTION_ENVIRONMENTAL;3|protection_projectile;2"
+    22: "274 e:DIG_SPEED;1|durability;10"
+    23: "257 e:DIG_SPEED;1|durability;10"
+    24: "257 e:DIG_SPEED;3|durability;10"
+    25: "280 e:KNOCKBACK;1"
+    26: "283 e:durability;10"
+    27: "283 e:damage_all;1|durability;10"
+    28: "283 e:damage_all;2|durability;10" 
+    29: "261 e:ARROW_INFINITE;1"
+    30: "261 e:ARROW_DAMAGE;1|ARROW_INFINITE;1"
+    31: "261 e:ARROW_DAMAGE;2|ARROW_KNOCKBACK;1|ARROW_INFINITE;1"
+    32: "262"
+    33: "260 a:3"
+    34: "393"
+    35: "320"
+    36: "322"
+    37: "54"
+    38: "130"
+    39: "POTION d:1 p:regeneration;45;0"
+    40: "POTION d:16274 p:speed;180;0"
+    41: "POTION d:9 p:increase_damage;180;0"
+    42: "0"
+    43: "0"
+    44: "346 n:§aБронесрыв l:§7При_использовании_на_противнике|§7срывает_с_него_броню|§7Действие_эффекта_-_§e5_§7секунд"  
+    45: "368"
+    46: "175 n:Купить_ресурсы_за_монеты"
+    47: "175 n:10_монет_->_50_ресурсов"
+    48: "175 n:20_монет_->_100_ресурсов"
+    49: "175 n:40_монет_->_200_ресурсов"
+    50: "175 n:100_монет_->_500_ресурсов"
+    51: "346 n:§aБронесрыв l:§7При_использовании_на_противнике|§7срывает_с_него_броню|§7Действие_эффекта_-_§e5_§7секунд"  
+    52: "377 n:§cОгненная_аура l:§7При_использовании_данного_предмета|§7любой_ваш_удар/выстрел_будет|§7поджигать_противника|§7Действие_эффекта_-_§e30_§7секунд"
+    53: "309 n:§bМагнитные_ботинки l:§7При_использовании_данного_предмета|§7на_вас_не_будет_действовать_отдача"
+    54: "287 n:§eКапкан l:§7Данная_ловушка_ослепляет_и_отравляет|§7противника,_если_тот_наступил_на_нее|§7Действие_эффекта_ослепления_и|§7отравления_-_§e8_§7секунд"
+    55: "287 n:§6Трамплин l:§7Данная_ловушка_подкидывает_противника|§7на_10_блоков,_если_тот_наступил_на_нее" 
+    56: "287 n:§dМина l:§7Данная_ловушка_наносит_урон|§7противнику_в_размере_§e5_§7сердец,|§7после_чего_он_будет_истекать_кровью"
+    57: "262 n:§aНазад"
+    58: "37 n:§aПакет_ресурсов l:§7При_использовании_дает_50_ресурсов|§7Можно_дать_союзнику"

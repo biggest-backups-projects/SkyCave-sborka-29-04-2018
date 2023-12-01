@@ -1,0 +1,7 @@
+# Плагин разработан специально для live:nikorasuurufudu
+# Скайп разработчика: jampire-h
+# Окончание поддержки плагина: 18 февраля 2016
+settings:
+    start_balance: 100
+    max_balance: 1000000000
+    confirmation_value: 10000

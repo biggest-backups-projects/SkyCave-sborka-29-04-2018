@@ -1,0 +1,147 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aBirdhouse
+map_folder: Birdhouse
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 3.7500036
+    yaw: 269.69998
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 8
+  max-players: 16
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 0.5
+    y: 110.86786864292797
+    z: 0.5
+    pitch: 8.400002
+    yaw: -92.40032
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -56.5
+    y: 67.0
+    z: 24.5
+    pitch: -3.2999914
+    yaw: -109.35059
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -46.5
+    y: 67.0
+    z: 43.5
+    pitch: -0.7499981
+    yaw: -149.8506
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -27.5
+    y: 67.0
+    z: 57.5
+    pitch: -2.549987
+    yaw: -162.3006
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -1.5
+    y: 67.0
+    z: 62.5
+    pitch: -0.59998333
+    yaw: -174.60057
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 24.5
+    y: 67.0
+    z: 57.5
+    pitch: 0.90000486
+    yaw: -198.00049
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 43.5
+    y: 67.0
+    z: 43.5
+    pitch: -2.0999978
+    yaw: -223.65042
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 57.5
+    y: 67.0
+    z: 28.5
+    pitch: -1.3499851
+    yaw: -254.55032
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 62.5
+    y: 67.0
+    z: 2.5
+    pitch: -2.5499706
+    yaw: -268.05038
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 57.5
+    y: 67.0
+    z: -23.5
+    pitch: -0.74997175
+    yaw: -289.6503
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 47.5
+    y: 67.0
+    z: -42.5
+    pitch: -2.2499762
+    yaw: -322.6504
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 28.5
+    y: 67.0
+    z: -56.5
+    pitch: -1.7999845
+    yaw: -345.9003
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: 2.5
+    y: 67.0
+    z: -61.5
+    pitch: -0.14999478
+    yaw: -358.05023
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -23.5
+    y: 67.0
+    z: -56.5
+    pitch: -2.4000099
+    yaw: -17.10022
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -42.5
+    y: 67.0
+    z: -42.5
+    pitch: -3.0000138
+    yaw: -45.750305
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -57.5
+    y: 67.0
+    z: -27.5
+    pitch: -1.3499887
+    yaw: -75.90024
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Birdhouse
+    x: -61.5
+    y: 67.0
+    z: -1.5
+    pitch: -3.2999947
+    yaw: -87.900085
+  time:
+    type: FIXED
+    value: 1000

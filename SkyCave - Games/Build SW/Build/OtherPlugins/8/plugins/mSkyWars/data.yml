@@ -1,0 +1,119 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aFrostbite
+map_folder: Frostbite
+lobby:
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: lobby
+    x: -20.329744600819044
+    y: 65.0
+    z: 0.5026194066021711
+    pitch: 1.1271374
+    yaw: -89.59927
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 40
+  lobby_countdown: 120
+  announce_time: 180
+  refill_time: 210
+  min-players: 6
+  max-players: 12
+  spectators_spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -0.28356444937359426
+    y: 98.3608991969709
+    z: 2.0412631497636773
+    pitch: 19.200089
+    yaw: -268.94986
+  spawns:
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -31.5
+    y: 63.0
+    z: -10.5
+    pitch: -10.199975
+    yaw: -82.49989
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -27.5
+    y: 63.0
+    z: -26.5
+    pitch: -8.699986
+    yaw: -46.94991
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -11.5
+    y: 63.0
+    z: -31.5
+    pitch: -17.849985
+    yaw: -19.949934
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 12.5
+    y: 63.0
+    z: -30.5
+    pitch: -12.899966
+    yaw: 13.6500635
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 28.5
+    y: 63.0
+    z: -26.5
+    pitch: -9.600011
+    yaw: 45.600075
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 33.5
+    y: 63.0
+    z: -10.5
+    pitch: -16.199997
+    yaw: 70.95007
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 32.5
+    y: 63.0
+    z: 13.5
+    pitch: -18.000006
+    yaw: 104.70009
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 28.5
+    y: 63.0
+    z: 29.5
+    pitch: -8.249993
+    yaw: 124.04986
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: 12.5
+    y: 63.0
+    z: 34.5
+    pitch: -14.700005
+    yaw: 160.3498
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -11.5
+    y: 63.0
+    z: 33.5
+    pitch: -17.099974
+    yaw: 199.64975
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -27.5
+    y: 63.0
+    z: 29.5
+    pitch: -7.649995
+    yaw: 220.49986
+  - ==: ru.jampire.mskywars.core.SpawnPoint
+    world: Frostbite
+    x: -32.5
+    y: 63.0
+    z: 13.5
+    pitch: -14.849994
+    yaw: 251.2499
+  time:
+    type: FIXED
+    value: 1000

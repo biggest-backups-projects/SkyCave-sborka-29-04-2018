@@ -1,0 +1,73 @@
+settings:
+    # название окна
+    title: "§0Кейсы с донат услугами"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+items:
+    cases1:
+        item: "54"
+        title: "§eЦены на кейсы"
+        lore: |-
+            
+            §7Цена:
+            §a25 §fрублей §b(5шт)
+            §a49 §fрублей §b(10шт)
+            §a99 §fрублей §b(20шт)
+            §a149 §fрублей §b(35шт)
+            §a249 §fрублей §b(60шт)
+            
+            §6Кейсы покупать на сайте §askycave.ru
+        action: "tell:§6Кейсы покупать на сайте §askycave.ru"
+        closeOnClick: true
+        slot: 2
+    cases2:
+        item: "339"
+        title: "§eПривилегии с кейса"
+        lore: |-
+            
+            §7Привилегии, которые могут
+            §7выпасть с кейса:
+            §7- §f[§dПремиум§f]
+            §7- §f[§eМастер§f]
+            §7- §f[§2Креатив§f]
+            §7- §f[§6Магма§f]
+            §7- §f[§bУльтра§f]
+            §7- §f[§9Легенда§f]
+            §7- §f[§aМедуза§f]
+            §7- §f[§cЛорд§f]
+            §7- §f[§5Делюкс§f]
+            §7- §f[§4Админ§f]
+            §7- §f[§a§lСпонсор§f]
+        action: "command:case list"
+        closeOnClick: true
+        slot: 4
+    cases3:
+        item: "131"
+        title: "§eОткрытие кейса"
+        lore: |-
+            
+            §7Нажмите, чтобы открыть кейс,
+            §7или напишите команду §c/case open
+        action: "command:case open"
+        closeOnClick: true
+        slot: 6
+    cases4:
+        item: "130"
+        title: "§eКоличество кейсов"
+        lore: |-
+           
+            §7Нажмите, чтобы посмотреть
+            §7количество своих кейсов,
+            §7или напишите команду §c/case count
+        action: "command:case count"
+        closeOnClick: true
+        slot: 8
+    back:
+        item: "262"
+        title: "§aНазад"
+        lore: |-
+            
+            §7Нажмите, чтобы вернуться
+            §7в главное меню
+        action: "page:menu"
+        slot: 23

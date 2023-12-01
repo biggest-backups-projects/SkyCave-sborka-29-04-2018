@@ -1,0 +1,188 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+map_name: §aFloatingIsland
+map_folder: FloatingIsland
+lobby:
+  spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: lobby
+    x: -20.5
+    y: 65.0
+    z: 0.5
+    pitch: 1.6500205
+    yaw: 270.44983
+  time:
+    type: FIXED
+    value: 1000
+arena:
+  length: 60
+  lobby_countdown: 120
+  announce_time: 180
+  min-players: 8
+  max-players: 16
+  spawners:
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 67.0
+    z: -4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 4.0
+    y: 67.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 67.0
+    z: 4.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: -4.0
+    y: 67.0
+    z: 0.0
+    type: GOLD
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: -50.0
+    y: 59.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: -105.0
+    y: 59.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 50.0
+    y: 59.0
+    z: 0.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 105.0
+    y: 59.0
+    z: 0.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 59.0
+    z: 50.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 59.0
+    z: 105.0
+    type: BRONZE
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 59.0
+    z: -50.0
+    type: SILVER
+  - ==: ru.jampire.mbedwars.core.Spawner
+    world: FloatingIsland
+    x: 0.0
+    y: 59.0
+    z: -105.0
+    type: BRONZE
+  spectators_spawns:
+  - ==: ru.jampire.mbedwars.core.SpawnPoint
+    world: FloatingIsland
+    x: -0.21212698994944704
+    y: 108.20000004768372
+    z: 0.2412963569099784
+    pitch: 82.05002
+    yaw: -81.44973
+  teams:
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 0.0
+      y: 60.0
+      z: 89.0
+    color_chat: RED
+    bed_direction: 0
+    name: Красные
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 0.5881551709541046
+      y: 60.0
+      z: 87.50109488050386
+      pitch: -4.500013
+      yaw: 177.4501
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 0.0
+      y: 60.0
+      z: -89.0
+    color_chat: GREEN
+    bed_direction: 2
+    name: Зеленые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 0.5890884173615293
+      y: 60.0
+      z: -86.98394992044429
+      pitch: 13.350026
+      yaw: 358.50024
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 89.0
+      y: 60.0
+      z: 0.0
+    color_chat: BLUE
+    bed_direction: 3
+    name: Синие
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: 87.53872729307172
+      y: 60.0
+      z: 0.4483120986316811
+      pitch: -2.2274256E-5
+      yaw: 87.60013
+  - ==: ru.jampire.mbedwars.core.Team
+    bed:
+      ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: -89.0
+      y: 60.0
+      z: 0.0
+    color_chat: YELLOW
+    bed_direction: 1
+    name: Желтые
+    spawns:
+    - ==: ru.jampire.mbedwars.core.SpawnPoint
+      world: FloatingIsland
+      x: -86.95901499114235
+      y: 60.0
+      z: 0.5692939231777244
+      pitch: 4.049985
+      yaw: -90.14996
+  time:
+    type: FIXED
+    value: 1000
+  spawners_settings:
+    time:
+      bronze: 20
+      silver: 200
+      gold: 650
+    resources:
+      bronze: 2
+      silver: 15
+      gold: 60

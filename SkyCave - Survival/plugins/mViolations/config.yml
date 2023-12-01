@@ -1,0 +1,42 @@
+# Разработка проекта mc.masedworld.ru
+# Скайп разработчика: jampire-h
+mysql:
+  host: jdbc:mysql://54.36.126.45/dbtest?useUnicode=true&characterEncoding=UTF-8
+  username: dbtest
+  password: SYAR2QJnATpi7IVm
+points: 10
+rules:
+    2/1:
+        points: 3
+        text: "Раздача вещей из креатива."
+        execute: "c:ban %target% 30m "
+    2/2:
+        points: 2
+        text: "Цены ниже магазина."
+    2/3:
+        points: 2
+        text: "Креатив вне региона."
+    2/4:
+        points: 3
+        text: "Наказание без корректной причины."
+    2/5:
+        points: 2
+        text: "Помеха другим игрокам."
+    2/6:
+        points: 10
+        text: "Продажа аккаунта."
+    2/7:
+        points: 3
+        text: "Наказание игрока за гриферство."
+    2/8:
+        points: 4
+        text: "Телепортация без причины."
+    2/9:
+        points: 3
+        text: "Использование прав на PvP."
+    2/10:
+        points: 2
+        text: "Снятие мута без причины."
+    2/11:
+        points: 3
+        text: "Гриферство или обман."

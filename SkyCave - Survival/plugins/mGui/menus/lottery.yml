@@ -1,0 +1,37 @@
+settings:
+    # название окна
+    title: "§0Лотерея"
+    # количество строк инвентаря. от 1 до 6
+    rows: 3
+    cmd: "lot"
+items:
+    status:
+        item: "340"
+        title: "§eСтатус"
+        lore: |-
+            
+            §7Джекпот этой игры - §a$%lottery_pot%
+            §7Участников - §e%lottery_participant%
+            §7Билетов куплено - §e%lottery_tickets% §7+ §c%lottery_system%
+
+            §7Ваши билеты: §b%lottery_buyed%
+            §7Шанс победы: §6%lottery_chance%%
+
+            §7Команда - §e/lottery status
+        action: "command:lottery status"
+        closeOnClick: true
+        slot: 3
+    tickets:
+        item: "395"
+        title: "§eБилеты"
+        lore: |-
+            
+            §7Нажмите, чтобы купить билеты
+            §7для участия в лотерее
+        action: "page:lotterybuy"
+        slot: 7
+    back:
+        item: "262"
+        title: "§aНазад"
+        action: "page:menu"
+        slot: 23
